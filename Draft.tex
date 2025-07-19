@@ -76,19 +76,88 @@ The second data set collected information on indicative price range published by
 
 I also obtain the charging station stock at the province-year level from 2018-2023.
 
-Lastly, I combile mean and standard deviation of demographic variables for each province-year.
+Lastly, I combile mean and standard deviation of demographic variables for each province-year, and use specifically the number of households as a proxy for the market size.
 
 \section{Empirical Modelling}
-    \subsection{Demand Modelling}
-    For modelling vehicle demand side, I follow the tradtitional setup of differentiated product demand estimation to use a discrete choice specification with random utility maximization. 
+    \subsection{Demand: Vehicle Choice}
+    For modelling vehicle demand side, I follow the tradtitional setup of differentiated product demand estimation to use a random utility maximization setup for modelling of discrete choices. 
 In particular, assume there re \textit{m = 1,...,M} markets that is defined as a province-year pair within my context of study. Within each of the defined market, the modelling is on individual purchase decisions of \textit{i = 1,...,I\textsubscript{m}} number of potential consumers, 
-made over \textit{j = 1,...,J} different vehicle models in the product space. The indirect utility of consumer \textit{i}, \textit{U()} of consuming product \textit{j} in market \textit{m} is specified as a function of both observed and unobserved product characteristics:
+made over \textit{j = 1,...,J} different vehicle models in the product space. The conditional indirect utility of consumer $i$, $U(x_{jt}, \xi_{jt}, p_{jt}, \tau_i; \theta)$ of consuming product $j$ in market $m$ is specified as a function of both observed and unobserved product characteristics:
 
 \begin{equation}
-    U_{ijm} = \alpha (y_{i} - p_{jm}) + x_{jm} \beta^{ex} + \xi_{jm} + \bar{\epsilon}_{h(j)m}^{i} + (1 - \rho) \bar{\epsilon}_{ijm}
+    u_{ijm} = \beta^N \log(N_jm) - \alpha p_{jm} + x_{jm} \beta^{ex} + \xi_{jm} + \bar{\epsilon}_{ijm}
+\end{equation}
+$i = 1,...,I_m, \ j = 0,..,J, \ m = 1,...,M,$
+
+where $p_{jm}$ denotes the net product price of product $j$ in market $m$, $y_{i}$ is the income of consumer, $x_{jt}$ is a $K$-dimensional row vector of observable produt characteristics of product j, $\xi_{jm}$ is the unobservable characteristics, 
+and $\bar{\epsilon}_{ijm}$ is a mean-zero stochastic term representing the remaining individual-specific valuation for product $j$. Additionally, an outside good representing no purchases is defined to have indirect utlity of $u_{i0m} = \bar{\epsilon}_{ijm}$.
+Consumer $i$ chooses between the outside good 0 and other $J$ differentiated products in the market. 
+As a standard practice notation-wise, I define the mean utility level of product $j$ in market $m$ as:
+
+\begin{equation}
+    \delta_{jm} \equiv - \alpha p_{jm} + x_j\beta + \xi_{jm}
 \end{equation}
 
-where $p_{jm}$ denotes the net product prices that includes taxes and intermediate markups, $y_{i}$ the income of consumer, 
+Following the distributional assumptions of the nested logit model, the individual valuation term $\bar{\epsilon}_{ijm}$ can be further decomposed as:
+
+\begin{equation}
+    \bar{\epsilon}_{ijm} = \zeta_{igm} + (1 - \rho) \epsilon_{ijm}
+\end{equation}
+
+Where $\zeta_{igm}$ is a group-common term of group $g = 0,...,G$, and an i.i.d individual valuation shock $(1 - \rho) \epsilon_{ijm}$. Here, $0 \leq \rho \leq 1$ is the nesting parameter approximates for the degree of preference correlation between products of the same group. 
+Following the interpretation of Berry (1994), the group-common term $\zeta_{igm}$ can be seen as random coefficeints on a set of group-specific dummies $d_{jgm}$ that equals to 1 if $j$ belongs to group $g$.
+Summarizing above, consumer $i$'s conditional indrect utility can now be written as:
+
+\begin{equation}
+    u_{ijm} = \delta_{jm} + x_{jm} \beta + \sum_{g} d_{jgm}\zeta_{jgm} + (1 - \rho) \epsilon_{ijm}
+\end{equation}
+
+The nested logit model assumes that the i.i.d shock $\epsilon_{ijm}$ follows a type I extreme value distribution, and as shown by Cardell (1997), there exist a unique distribution of $\zeta_{ig}$ that $[\zeta_{ig} + (1-\rho)\epsilon]$ also follows an extreme value distribution. The distributional assumptions allow for closed-form solutions for the choice probabilities.
+In the spirit of Berry (1994), I write the well-known result of choice probability of choosing product $j$ within group $g$, which equivalent gives the within-group market of product $j$:
+
+\begin{equation}
+    s_{j/g} = \frac{e^{\delta_{jm}/(1-\rho)}}{D_g}
+\end{equation}
+
+where $D_g$ is the denominator that normalizes the choice probability, defined as:
+\begin{equation}
+    D_g \equiv \sum_{j \in J_g} e^{\delta_{jm}/(1-\rho)}
+\end{equation}
+
+The probability of choosing group $g$ and hence the market share of group $g$ can be expressed as:
+
+\begin{equation}
+    s_{g} = \frac{D_g^{(1-\rho)}}{\sum_{g} D_g^{(1-\rho)}}
+\end{equation}
+
+Thus, the overall market share of product $j$ in market $m$ reads:
+\begin{equation}
+    s_{jm} = s_{j/g} s_g = \frac{e^{\delta_{jm}/(1-\rho)}}{D_g^\rho [\sum_{g} D_g^{(1-\rho)}]} 
+\end{equation}
+
+Specifically, the outside good as the only product in group 0, with normalizations $\delta_0 \equiv 0$ and $D_0 = 1$, has a market share of:
+\begin{equation}
+    s_{0m} = \frac{1}{\sum_{g} D_g^{(1-\rho)}}  
+\end{equation}
+
+From setting out the model and predicted market share, taking logs gives an analyitic linear expression for estimation:
+
+\begin{equation}
+    \log(s_{jm}) - \log(s_{0m}) = \delta_{jm}/(1-\rho) - \delta\log(D_g)
+\end{equation}
+
+Recalling the definition of $D_g$ and $\delta_{jm}$ gives the final form:
+
+\begin{equation}
+    \log(s_{jm}) - \log(s_{0m}) - \rho\log(s_{j/g}) = \beta^N \log(N_jm) - \alpha p_{j} + x_j\beta + \xi_{jm}
+\end{equation}
+
+The additional term $\rho\log(s_{j/g})$ accounts for the correlation of preferences within groups, which is put to the left of equation indicating its endogeneity as in Conlon and Gortmaker (2020).    \subsection{Supply: Station Entry}
+    
+\section{Empiricals}
+    \subsection{Identification}
+    
+    \subsection{Estimation}
 
 
 \section{Results}
@@ -103,7 +172,5 @@ where $p_{jm}$ denotes the net product prices that includes taxes and intermedia
 
 \section{Literature Review}
 
-
-% Your content here
 
 \end{document}
