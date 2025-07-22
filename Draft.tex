@@ -25,17 +25,15 @@ This study primarily relates to the following three strands of literature.
         Differentiated Market Demand estimation
 First, this study closely relates to the mature literature on differentiated product demand estimation, in which the automobile market has been specifically focused on with a variety of directions for extensions. Following the foundational work of MacFadden (1977), the strucutral approach of logit discrete choice has been widely adopted for the demand-supply style problems. 
 To allow for a more realistic assumtions and promptly deal with dimensionality problems, variants in the model such as the nested logit model, the principles-of-differentiation general extreme-value (PD-GEV) model in Bresnahan et al. (1997), and the adopted approach in this paper of random-coefficient discrete choice model in Berry et al. (1995). 
-Following the seminal works of Bresnahan (1987), Berry et al. (1995), and Petrin (2002), I apply the standard but rigorous structural modelling style to the automobile industry, to maintain flexible substitution patterns and facilitate counterfactual policy evaluations. Although automobile demand estimation has been thoroughly discussed in the past three decades, 
+Following the seminal works of Bresnahan (1987), Berry et al. (1995), and Petrin (2002), I apply the standard structural modelling techniques to the automobile industry, in order to recover flexible substitution patterns and facilitate counterfactual policy evaluations. Although automobile demand estimation has been thoroughly discussed in the past three decades, 
 the focus on EV is relatively fresh within the literature. Li et al. (2017) began with a stylized model to evaluate the effectiveness of EV and infrastructure incentives in the U.S. market. They found that charging station subsidies of equal sizes are twice as effective for EV adoption that purchase incentives. Springel (2021) aimed at similar question in the Norwesian market,
 but implemented a structural demand-supply specification and estimated a random coefficient model under the influence of indirect network externality of charging stations, which then faciliates the testing of counterfactual policy mixes. Li (2023) considered again the U.S. automobile market and EV adoption using a BLP-style model, 
 but introduced incompatible charging standards to the supply side and focused primarily on the impact of a uniform-standard policy for EV penetration. Remmy (2023) expanded the strucutral model by endogenizing supply-side decision on range of EVs and explored firms', in addition to consumers', responses to incentive schemes in Germany. 
-Finally, Heid et al. (2024) enriched the modelling further by bringing in electricity market to form a joint-equilibrium model, endogenizing charging timing on the demand side, and further discussed the issue of pass-through in incentives. 
-
-As for studies on the Chinese automobile industry, Jia et al. (2023) studied the impact of attribute-based incentives to EV adoption, 
-
+Finally, Heid et al. (2024) enriched the modelling further by bringing in electricity market to form a joint-equilibrium model, endogenizing charging timing on the demand side, and further discussed the issue of pass-through in incentives. As for studies on the Chinese automobile industry, Jia et al. (2023) studied the impact of attribute-based incentives to EV adoption building on a structural demand model. 
+They found that But they focus primarily on the strand of endogenous product attributes and abstracted away from the supply-side decision on charging station entry. To the best of my knowledge, there is yet a systematic study of the Chinese EV market that incorporates indirect network effects.
         
         Indirect Network Effect
-The interaction between EV and charging station presents a typical example of a two-sided market, in which the presence of indirect network effect would generally alter policy implications significantly (Armstrong 2006). 
+The interaction between EV and charging station presents a typical example of a two-sided market, in which the presence of indirect network effect would generally alter policy implications significantly. The literature on indirect network effect traces back to the earlier theoretical works such as Katz and Shapiro (1985) and Farrel and Saloner (1985). 
 This study specifically adds to the strand of automobile demand modelling by testing the result of indirect network effect in the Chinese market.
 
 
@@ -91,7 +89,7 @@ $i = 1,...,I_m, \ j = 0,..,J, \ m = 1,...,M,$
 
 where $p_{jm}$ denotes the net product price of product $j$ in market $m$, $y_{i}$ is the income of consumer, $x_{jt}$ is a $K$-dimensional row vector of observable produt characteristics of product j, $\xi_{jm}$ is the unobservable characteristics, 
 and $\bar{\epsilon}_{ijm}$ is a mean-zero stochastic term representing the remaining individual-specific valuation for product $j$. Additionally, an outside good representing no purchases is defined to have indirect utlity of $u_{i0m} = \bar{\epsilon}_{ijm}$.
-Consumer $i$ chooses between the outside good 0 and other $J$ differentiated products in the market. 
+Consumer $i$ chooses between the outside good 0 and other $J$ differentiated products in the market and purchases one unit of good $j$ if and only if $u_{ijm} > u_{ikm}$ for all $k \geq 0$ and $k \neq j$. 
 As a standard practice notation-wise, I define the mean utility level of product $j$ in market $m$ as:
 
 \begin{equation}
@@ -140,7 +138,7 @@ Specifically, the outside good as the only product in group 0, with normalizatio
     s_{0m} = \frac{1}{\sum_{g} D_g^{(1-\rho)}}  
 \end{equation}
 
-From setting out the model and predicted market share, taking logs gives an analyitic linear expression for estimation:
+From setting out the model and predicted market share, taking natural logarithms of both sides gives an analyitic linear expression for estimation:
 
 \begin{equation}
     \log(s_{jm}) - \log(s_{0m}) = \delta_{jm}/(1-\rho) - \delta\log(D_g)
@@ -152,7 +150,41 @@ Recalling the definition of $D_g$ and $\delta_{jm}$ gives the final form:
     \log(s_{jm}) - \log(s_{0m}) - \rho\log(s_{j/g}) = \beta^N \log(N_jm) - \alpha p_{j} + x_j\beta + \xi_{jm}
 \end{equation}
 
-The additional term $\rho\log(s_{j/g})$ accounts for the correlation of preferences within groups, which is put to the left of equation indicating its endogeneity as in Conlon and Gortmaker (2020).    \subsection{Supply: Station Entry}
+The additional term $\rho\log(s_{j/g})$ accounts for the correlation of preferences within groups, which is put to the left of equation indicating its endogeneity as in Conlon and Gortmaker (2020).  
+
+    \subsection{Supply: Station Entry}
+    My specification closely follows that of Springel (2021) and Remmy (2023). Let $h = 1, ..., N_{m}$ denote the set of charging station firms, and $j = 1,...,J$ denote the set of vehicle models. Assume firms are price-setters and that each firm maximizes profits over a subset $J_f$.
+Assuming a standard profit function that is quasi-concave in price, the per-consumer profit function is given as $D_{hm}(p_{hm}, p_{-hm}, N_{m}) (p_{hm} - MC_{hm})$, where the per-consumer demand $D_{hm}$ faced by firm $f$ is given by a function of charging station network $N_m$, 
+own price $p_{hm}$ and the price of competing firms $p_{-hm}$. Similarly to Springle (2021) and Remmy (2023), I make the following similifying assumptions in the spirit of Gandal, kende, and Rob (2000) and Bresnahan and Reiss (1991): 
+    1. Symmetric per-consumer demand function;
+    2. Constant marginal cost $MC_{hm}$ and sunk cost of entry $F_{hm} $ across all firms $f$ in market $m$;
+    3. Each station earns and equal share of market profit from symmetry.
+These assumptions ensures the eixstence of an equilibrium that all stations charge the same price, and the post-entry station profit per-period reads:
+
+\begin{equation}
+    \pi_{m} = Q_{m}^{EV} \frac{D(p(N_m)) \phi(N_m)} {N_m}
+\end{equation}
+
+where $Q_{m}^{EV}$ is the cumulative EV stock market $m$, $\phi(N_m) \equiv p - MC$ is the equilibrium markup, and $p(N_m)$ is assumed to decrease in $N_m$. For a simpler notation, denote $f(N_m) \equiv \frac{D(p(N_m)) \phi(N_m)} {N_m}$ 
+
+Next, I assume that the entry decision of charging station firms is made at the beginning of each period and utilizes a free-entry condition to derive the equilirbium relationship. I also modify notation to replace market $m$ with a province-year pair $pt$ for clarity in timing.
+If a firm enters the market in period $t$, it incurs a sunk cost of entry $F_{pt}$, and earns a stream of per-period profits starting next period $(\pi_{pt+1}, \pi_{pt+2}, ...)$. The free-entry condition requires that the expected present value of profits from entering the market is equalized across periods, that is:
+
+\begin{equation}
+    -F_{pt} + \sum_{s=1}^{\infty} \frac{\pi_{pt+s}}{(1 + r)^s} = - \frac{F_{pt+1}} {(1 + r)} + \sum_{s=2}^{\infty} \frac{\pi_{pt+s}}{(1 + r)^s}
+\end{equation}
+
+Combining the station profit expression with the free-entry condition and taking natural logarithm of both sides, the expression boils down to:
+
+\begin{equation}
+    \log(f(N_{pt})) = -\log(\frac{1}{(1 + r)})  - \log Q_{ct}^{EV} + \log(F_{pt} - \frac{1}{1 + r} F_{pt+1})
+\end{equation}
+
+By specifying $f(N_{pt}) = (bN_{pt})^{-d}$ and assuming the entry cost $F_{pt}$ is a linear function of exogenous cost shifter, province demographics which captured by fixed effect $\rho_p$, and a time trend $\tau(t)$, the station entry model is specified as:
+
+\begin{equation}
+    \log(N_{pt}) = \lambda_0 + \lambda_1 \log(Q_{pt}^{EV}) + \lambda_3 \rho_p + \lambda_4 \tau(t) + \epsilon_{pt}
+\end{equation}
     
 \section{Empiricals}
     \subsection{Identification}
