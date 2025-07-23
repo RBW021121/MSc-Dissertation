@@ -1,28 +1,40 @@
 \documentclass{article}
 
 \usepackage{amsmath}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{graphicx}
 
-\title{Research Paper on EV Adoption and Policy Incentives}
-\author{Runbin Wang \\ University College London MSc \\ \texttt{email@example.com}}
+\title{Dissertation on EV Adoption and Policy Incentives}
+\author{Runbin Wang \\ University College London MSc \\ }
 \date{\today}
 
 \begin{document}
-
 \maketitle
+\section{Abstract}
+
+\newpage
+
+\tableofcontents
+
+\newpage  
 
 \section{Introduction}
-    EV penetration in the automobile industry
 Electric vehicles (EVs) have emerged as a pivotal technology in the global transition towards sustainable transportation. Their adoption is closely linked to environmental policy frameworks, which aim to mitigate greenhouse gas emissions and reduce urban air pollution. 
 Governments worldwide have implemented a range of incentives to accelerate EV uptake, including direct purchase subsidies, tax rebates, and exemptions from registration fees. In addition, indirect incentives such as investments in charging infrastructure, preferential access to urban zones, 
 and public awareness campaigns have played a significant role in shaping consumer behavior. The effectiveness of these policies depends on local market conditions, technological readiness, and the broader regulatory environment. 
 As EV technology continues to evolve, policy incentives remain a critical lever for driving adoption and achieving environmental objectives.
-•	Global context of policy incentives for EV adoption
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{GraphsTables/EV_charging.png}
+    \caption{EV Stock and Charging Station Stock in China (2019-2023)}
+    \label{fig:EV_charging}
+\end{figure}
 
-•	Review on three streams of literature: 
+\section{literature Review}
 This study primarily relates to the following three strands of literature. 
        
-        Differentiated Market Demand estimation
+        Differentiated Market Demand estimation \\
 First, this study closely relates to the mature literature on differentiated product demand estimation, in which the automobile market has been specifically focused on with a variety of directions for extensions. Following the foundational work of MacFadden (1977), the strucutral approach of logit discrete choice has been widely adopted for the demand-supply style problems. 
 To allow for a more realistic assumtions and promptly deal with dimensionality problems, variants in the model such as the nested logit model, the principles-of-differentiation general extreme-value (PD-GEV) model in Bresnahan et al. (1997), and the adopted approach in this paper of random-coefficient discrete choice model in Berry et al. (1995). 
 Following the seminal works of Bresnahan (1987), Berry et al. (1995), and Petrin (2002), I apply the standard structural modelling techniques to the automobile industry, in order to recover flexible substitution patterns and facilitate counterfactual policy evaluations. Although automobile demand estimation has been thoroughly discussed in the past three decades, 
@@ -32,12 +44,12 @@ but introduced incompatible charging standards to the supply side and focused pr
 Finally, Heid et al. (2024) enriched the modelling further by bringing in electricity market to form a joint-equilibrium model, endogenizing charging timing on the demand side, and further discussed the issue of pass-through in incentives. As for studies on the Chinese automobile industry, Jia et al. (2023) studied the impact of attribute-based incentives to EV adoption building on a structural demand model. 
 They found that But they focus primarily on the strand of endogenous product attributes and abstracted away from the supply-side decision on charging station entry. To the best of my knowledge, there is yet a systematic study of the Chinese EV market that incorporates indirect network effects.
         
-        Indirect Network Effect
+        Indirect Network Effect \\
 The interaction between EV and charging station presents a typical example of a two-sided market, in which the presence of indirect network effect would generally alter policy implications significantly. The literature on indirect network effect traces back to the earlier theoretical works such as Katz and Shapiro (1985) and Farrel and Saloner (1985). 
 This study specifically adds to the strand of automobile demand modelling by testing the result of indirect network effect in the Chinese market.
 
 
-        EV Adoption and Environmental Policy
+        EV Adoption and Environmental Policy \\
 Lastly, this paper contributes to the understanding of policy impacts on EV adoption. The Chinese government has prompted EV penetration of the largest in scale and fastest in speed through strong policy supports.
 Although the growing literature of EV adoption and environmental policy has studied cases of various developed economies such as Norway (Springel 2021), the US (Li et al. 2017) (Li 2023), and Germany (Remmy 2024), there is yet to be a systematic study of the evloving Chinese EV market to my knowledge. 
 EV policies have been pivotal to the net-zero target of China, where a wide-range of policies have been entering, substituting and existing in a frequent basis, allowing for many additional policy questions to be answered by evaluating the rich set of policy mix. 
@@ -47,7 +59,7 @@ In particular, the question on policy exit effect is rarely asked for this relat
 
 
 \section{Industrial Background and Policy}
-•	Development of Chinese EV market
+    \subsection{Development of Chinese EV market}
 The Chinese EV market has experienced a rapid expansion period over the last decade, and various incentives in the form of both central and disaggregated policies have contributed to the process. 
 Back in 2009, the Chinese government first initiated the experimental policy initiative of "1,000 EVs in 10 cities", aiming at introducing new energy vehicles at 10 cities per year. To initialize EV adoption, 
 the replacecment over traditional ICE cars initially took place in public transports, taxi, and other government-led fields. However, EV penetration was unsuccessful during ealier stages due to immature industry of EV production, technologies and infrastures. 
@@ -59,7 +71,7 @@ among which infrastructure supply was key due to the unique two-sided market fea
 following the entry of Tesla's super-factory in Shanghai, number of brands began to rise, pushing up the intensiveness of differentiated product competition. In addition, the 'Dual Credit Policy' published in 2017 effectively ensured a minimum share for EV from the supply side, 
 resulted in large scale entires of traditional ICE automobile players to expand into EV production.
 
-•	Central/local government incentives: purchase and infrastructure
+    \subsection{Central/local government incentives: purchase and infrastructure} 
 
 \section{Data}
 The data I use is combiled from a variety of sources, including a commercial source that aggregated registry data from the Chinese Association of Automobile Manufacturers (CAAM), indiative price and range data from the Minstry of Industry and Information Technology (MIIT), 
@@ -188,21 +200,72 @@ By specifying $f(N_{pt}) = (bN_{pt})^{-d}$ and assuming the entry cost $F_{pt}$ 
     
 \section{Empiricals}
     \subsection{Identification}
-    
+    IV strategies
     \subsection{Estimation}
 
 
 \section{Results}
-•
+
+    \subsection{Demand}
+
+    Elasticities (absent of indirect network effect) \\
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{GraphsTables/elasticity_plot.png}
+    \caption{Example of Elasticities (Shanghai, 2019)}
+    \label{fig:Elasticities}
+\end{figure}
+
+\begin{table}[htbp]
+\centering
+\caption{Rho and Beta Estimates (Robust SEs in Parentheses)}
+\begin{tabular}{lcccc}
+\hline
+ & Rho (All Groups) & prices & is\_electric & is\_electric*log\_charging\_IV \\
+\hline
+Estimate & $+9.9\mathrm{E}{-01}$ & $-2.4\mathrm{E}{-01}$ & $-8.6\mathrm{E}{+00}$ & $+6.7\mathrm{E}{-01}$ \\
+(SE)     & $(+1.5\mathrm{E}{-02})$ & $(+2.3\mathrm{E}{-03})$ & $(+2.2\mathrm{E}{-01})$ & $(+2.2\mathrm{E}{-02})$ \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+    \subsection{Supply}
+
+
+\begin{table}[!htbp]
+\centering
+\begin{tabular}{@{\extracolsep{5pt}}lcc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+\\[-1.8ex] & (1) & (2) \\
+\hline \\[-1.8ex]
+ Intercept & & 11.132$^{***}$ \\
+& & (0.382) \\
+ $log(EV_stock)$ & 0.301$^{}$ & \\
+& (1.036) & \\
+ time\_trend & 0.286$^{}$ & \\
+& (0.453) & \\
+ shift\_share\_IV & & 0.000$^{***}$ \\
+& & (0.000) \\
+\hline \\[-1.8ex]
+Fixed Effects & Province-Year &  \\
+ Observations & 155 & 155 \\
+ $R^2$ & 0.973 & 0.126 \\
+ Residual Std. Error & 1.747 (df=122) & 0.558 (df=153) \\
+ F Statistic & 1004081.737$^{***}$ (df=33; 122) & 13.667$^{***}$ (df=2; 153) \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}
+
 
 \section{Policy Counterfactuals}
-•	
+
 
 \section{Conclusion}
-
-
-
-\section{Literature Review}
 
 
 \end{document}

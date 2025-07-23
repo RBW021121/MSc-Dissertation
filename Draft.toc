@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Abstract}{1}{}%
+\contentsline {section}{\numberline {2}Introduction}{3}{}%
+\contentsline {section}{\numberline {3}literature Review}{3}{}%
+\contentsline {section}{\numberline {4}Industrial Background and Policy}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Development of Chinese EV market}{4}{}%
+\contentsline {subsection}{\numberline {4.2}Central/local government incentives: purchase and infrastructure}{5}{}%
+\contentsline {section}{\numberline {5}Data}{5}{}%
+\contentsline {section}{\numberline {6}Empirical Modelling}{5}{}%
+\contentsline {subsection}{\numberline {6.1}Demand: Vehicle Choice}{5}{}%
+\contentsline {subsection}{\numberline {6.2}Supply: Station Entry}{6}{}%
+\contentsline {section}{\numberline {7}Empiricals}{7}{}%
+\contentsline {subsection}{\numberline {7.1}Identification}{7}{}%
+\contentsline {subsection}{\numberline {7.2}Estimation}{7}{}%
+\contentsline {section}{\numberline {8}Results}{7}{}%
+\contentsline {subsection}{\numberline {8.1}Demand}{7}{}%
+\contentsline {subsection}{\numberline {8.2}Supply}{7}{}%
+\contentsline {section}{\numberline {9}Policy Counterfactuals}{7}{}%
+\contentsline {section}{\numberline {10}Conclusion}{7}{}%
