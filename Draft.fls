@@ -224,6 +224,7 @@ INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmbx10.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 OUTPUT Draft.toc
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\GraphsTables\EV_charging.png
 INPUT .\GraphsTables\EV_charging.png
 INPUT GraphsTables\EV_charging.png
@@ -231,7 +232,6 @@ INPUT .\GraphsTables\EV_charging.png
 INPUT .\GraphsTables\EV_charging.png
 INPUT .\GraphsTables\EV_charging.png
 INPUT .\GraphsTables\EV_charging.png
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmbx12.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmti10.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmti7.tfm
 INPUT .\GraphsTables\elasticity_plot.png
