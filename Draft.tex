@@ -19,15 +19,15 @@
 \newpage  
 
 \section{Introduction}
-Electric vehicles (EVs) have emerged as a pivotal technology in the global transition towards sustainable transportation. Their adoption is closely linked to environmental policy frameworks, which aim to mitigate greenhouse gas emissions and reduce urban air pollution. 
-Governments worldwide have implemented a range of incentives to accelerate EV uptake, including direct purchase subsidies, tax rebates, and exemptions from registration fees. In addition, indirect incentives such as investments in charging infrastructure, preferential access to urban zones, 
-and public awareness campaigns have played a significant role in shaping consumer behavior. The effectiveness of these policies depends on local market conditions, technological readiness, and the broader regulatory environment. 
-As EV technology continues to evolve, policy incentives remain a critical lever for driving adoption and achieving environmental objectives.
+Electric vehicles (EVs) have emerged as a pivotal technology in the global transition towards sustainable transportation. Governments worldwide have implemented a range of incentives to accelerate EV uptake, such as direct purchase subsidies, tax rebates, and exemptions from registration fees. In addition, indirect incentives such as investments in charging infrastructure, preferential access to urban zones, 
+and public awareness campaigns have played a significant role in shaping consumer behavior. As EV technology continues to evolve, policy incentives remain a critical lever for driving adoption and achieving environmental objectives. As one of the greatest carbon emitters, China committed to carbon neutrality by 2030 and has put significant policy power into environmental policies. 
+China remains the world's largest automobile market, the transportation sector, as a traditional carbon-intensive industry, presents as one of the greatest challenges yet a great opportunity to decarbonization. China's average annual growth rate hits approximately 15\% in automobile base since 1990, the momentum in the traditional automobile industry makes the transition toward sustainable transport especially difficult. 
+Therefore, the question of how to efficiently incentivize EV adoption closely links to environmental policy frameworks, which aim to mitigate greenhouse gas emissions and reduce urban air pollution. 
+
+
 
     \subsection{Research Question}
 This paper aims to answer the following research question:To what extent does the presence of indirect network effects from charging stations influence the substitutional patterns and the effectiveness of policy incentives on EV adoption in China?
-
-    \subsection{Motivation}
 
 \begin{figure}[htbp]
     \centering
@@ -61,8 +61,6 @@ EV policies have been pivotal to the net-zero target of China, where a wide-rang
 In particular, the question on policy exit effect is rarely asked for this relatively yound industry, and this paper adds to that direction, by extending the question of optimal policy mix in Springel (2021) to exploring the compensatory effects of policy substitutions.
 
 
-
-
 \section{Industrial Background and Policy}
     \subsection{Development of Chinese EV market}
 The Chinese EV market has experienced a rapid expansion period over the last decade, and various incentives in the form of both central and disaggregated policies have contributed to the process. 
@@ -71,8 +69,8 @@ the replacecment over traditional ICE cars initially took place in public transp
 Within the same period, monetary incentives were also introduced on both supply and demand side in the form of cost rebates and purchase subsidies. In 2014, a uniform tax rebate policy was introduced for all purchases on BEVs and PHEVs. These conitnued to exist until the environmental policies gradually gained public attention in major cities. 
 Many local environmental policies had taken the form of travel and registration restrictions on traditional vehicles while leaving EV unaffected. As technologies progressed, prices effects combining with usage value rise accelerated EV penetration.
 
-In the starting period, EV share rised explosively but with a strong reliance on intense monetary incentives. The side effects of subsidy fraud also came as a side effect. As a result, the attention gradually shifted from direct to indirect policies, 
-among which infrastructure supply was key due to the unique two-sided market feature of EV. From 2017, policy exists on direct subsides was complemented by construction cost rebate and operational subsidies for charging stations. In the meantime, foreign capital restrictions were lifted for automobile producers, 
+In the starting period, EV share rised explosively but with a strong reliance on intense monetary incentives, as a result, subsidy frauds also came as a side effect. As a result, the attention gradually shifted from direct to indirect policies, 
+among which infrastructure supply was a key target due to the unique two-sided market feature of EV. From 2017, policy exists on direct subsides was complemented by construction cost rebate and operational subsidies for charging stations. In the meantime, foreign capital restrictions were lifted for automobile producers, 
 following the entry of Tesla's super-factory in Shanghai, number of brands began to rise, pushing up the intensiveness of differentiated product competition. In addition, the 'Dual Credit Policy' published in 2017 effectively ensured a minimum share for EV from the supply side, 
 resulted in large scale entires of traditional ICE automobile players to expand into EV production.
 
@@ -197,12 +195,15 @@ Combining the station profit expression with the free-entry condition and taking
     \log(f(N_{pt})) = -\log(\frac{1}{(1 + r)})  - \log Q_{ct}^{EV} + \log(F_{pt} - \frac{1}{1 + r} F_{pt+1})
 \end{equation}
 
+Additionally, I leverage the unique feature of the policy structure in China, where province governments perform independent subsidizing polilicies of different forms across the observed period, bringing in additional variations to explore policy effectiveness.
 By specifying $f(N_{pt}) = (bN_{pt})^{-d}$ and assuming the entry cost $F_{pt}$ is a linear function of exogenous cost shifter, province demographics which captured by fixed effect $\rho_p$, and a time trend $\tau(t)$, the station entry model is specified as:
 
 \begin{equation}
-    \log(N_{pt}) = \lambda_0 + \lambda_1 \log(Q_{pt}^{EV}) + \lambda_3 \rho_p + \lambda_4 \tau(t) + \epsilon_{pt}
+    \log(N_{pt}) = \lambda_0 + \lambda_1 \log(Q_{pt}^{EV}) + \lambda_2 P_{it} + \lambda_3 \rho_p + \lambda_4 \tau(t) + \epsilon_{pt}
 \end{equation}
-    
+
+
+
 \section{Empiricals}
     \subsection{Identification}
     IV strategies
