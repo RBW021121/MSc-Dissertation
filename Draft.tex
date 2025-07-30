@@ -98,7 +98,7 @@ In particular, assume there re \textit{m = 1,...,M} markets that is defined as a
 made over \textit{j = 1,...,J} different vehicle models in the product space. The conditional indirect utility of consumer $i$, $U(x_{jt}, \xi_{jt}, p_{jt}, \tau_i; \theta)$ of consuming product $j$ in market $m$ is specified as a function of both observed and unobserved product characteristics:
 
 \begin{equation}
-    u_{ijm} = \beta^N \log(N_jm) - \alpha p_{jm} + x_{jm} \beta^{ex} + \xi_{jm} + \bar{\epsilon}_{ijm}
+    u_{ijm} = \beta^N \log(N_jm) + \alpha p_{jm} + x_{jm} \beta^{ex} + \xi_{jm} + \bar{\epsilon}_{ijm}
 \end{equation}
 $i = 1,...,I_m, \ j = 0,..,J, \ m = 1,...,M,$
 
@@ -108,7 +108,7 @@ Consumer $i$ chooses between the outside good 0 and other $J$ differentiated pro
 As a standard practice notation-wise, I define the mean utility level of product $j$ in market $m$ as:
 
 \begin{equation}
-    \delta_{jm} \equiv - \alpha p_{jm} + x_j\beta + \xi_{jm}
+    \delta_{jm} \equiv \beta^N \log(N_jm) + \alpha p_{jm} + x_{jm}\beta + \xi_{jm}
 \end{equation}
 
 Following the distributional assumptions of the nested logit model, the individual valuation term $\bar{\epsilon}_{ijm}$ can be further decomposed as:
@@ -122,7 +122,7 @@ Following the interpretation of Berry (1994), the group-common term $\zeta_{igm}
 Summarizing above, consumer $i$'s conditional indrect utility can now be written as:
 
 \begin{equation}
-    u_{ijm} = \delta_{jm} + x_{jm} \beta + \sum_{g} d_{jgm}\zeta_{jgm} + (1 - \rho) \epsilon_{ijm}
+    u_{ijm} = \delta_{jm} + \sum_{g} d_{jgm}\zeta_{jgm} + (1 - \rho) \epsilon_{ijm}
 \end{equation}
 
 The nested logit model assumes that the i.i.d shock $\epsilon_{ijm}$ follows a type I extreme value distribution, and as shown by Cardell (1997), there exist a unique distribution of $\zeta_{ig}$ that $[\zeta_{ig} + (1-\rho)\epsilon]$ also follows an extreme value distribution. The distributional assumptions allow for closed-form solutions for the choice probabilities.
@@ -162,7 +162,7 @@ From setting out the model and predicted market share, taking natural logarithms
 Recalling the definition of $D_g$ and $\delta_{jm}$ gives the final form:
 
 \begin{equation}
-    \log(s_{jm}) - \log(s_{0m}) - \rho\log(s_{j/g}) = \beta^N \log(N_jm) - \alpha p_{j} + x_j\beta + \xi_{jm}
+    \log(s_{jm}) - \log(s_{0m}) - \rho\log(s_{j/g}) = \beta^N \log(N_jm) + \alpha p_{j} + x_j\beta + \xi_{jm}
 \end{equation}
 
 The additional term $\rho\log(s_{j/g})$ accounts for the correlation of preferences within groups, which is put to the left of equation indicating its endogeneity as in Conlon and Gortmaker (2020).  
@@ -199,7 +199,7 @@ Additionally, I leverage the unique feature of the policy structure in China, wh
 By specifying $f(N_{pt}) = (bN_{pt})^{-d}$ and assuming the entry cost $F_{pt}$ is a linear function of exogenous cost shifter, province demographics which captured by fixed effect $\rho_p$, and a time trend $\tau(t)$, the station entry model is specified as:
 
 \begin{equation}
-    \log(N_{pt}) = \lambda_0 + \lambda_1 \log(Q_{pt}^{EV}) + \lambda_2 P_{it} + \lambda_3 \rho_p + \lambda_4 \tau(t) + \epsilon_{pt}
+    \log(N_{pt}) = \lambda_0 + \lambda_1 \log(Q_{pt}^{EV}) + \lambda_2 FX_{it} + \lambda_3 OP_{it} + \lambda_4 \rho_p + \lambda_5 \tau(t) + \epsilon_{pt}
 \end{equation}
 
 
