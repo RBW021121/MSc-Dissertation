@@ -1,8 +1,12 @@
 \documentclass{article}
 
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage[a4paper, margin=1in]{geometry}
 \usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{dsfont}
+
 
 \title{Dissertation on EV Adoption and Policy Incentives}
 \author{Runbin Wang \\ University College London MSc \\ }
@@ -19,22 +23,81 @@
 \newpage  
 
 \section{Introduction}
-Electric vehicles (EVs) have emerged as a pivotal technology in the global transition towards sustainable transportation. Governments worldwide have implemented a range of incentives to accelerate EV uptake, such as direct purchase subsidies, tax rebates, and exemptions from registration fees. In addition, indirect incentives such as investments in charging infrastructure, preferential access to urban zones, 
-and public awareness campaigns have played a significant role in shaping consumer behavior. As EV technology continues to evolve, policy incentives remain a critical lever for driving adoption and achieving environmental objectives. As one of the greatest carbon emitters, China committed to carbon neutrality by 2030 and has put significant policy power into environmental policies. 
-China remains the world's largest automobile market, the transportation sector, as a traditional carbon-intensive industry, presents as one of the greatest challenges yet a great opportunity to decarbonization. China's average annual growth rate hits approximately 15\% in automobile base since 1990, the momentum in the traditional automobile industry makes the transition toward sustainable transport especially difficult. 
+Electric vehicles (EVs) have emerged as a pivotal technology in the global transition towards sustainable transportation. 
+EVs can be devided into battery electric vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs), both of which offer significant advantages over traditional internal combustion engine (ICE) vehicles, 
+including reduced greenhouse gas emissions, lower operating costs, and improved energy efficiency.
+Governments worldwide have implemented a range of incentives to accelerate EV uptake, such as direct purchase subsidies, tax rebates, and exemptions from registration fees. 
+In addition, indirect incentives such as investments in charging infrastructure, preferential access to urban zones, 
+and public awareness campaigns have played a significant role in shaping consumer behavior. 
+As EV technology continues to evolve, policy incentives remain a critical lever for driving adoption and achieving environmental objectives. 
+As one of the greatest carbon emitters, China committed to carbon neutrality by 2030 and has put significant policy power into environmental policies. 
+China remains the world's largest automobile market, the transportation sector, as a traditional carbon-intensive industry, presents as one of the greatest challenges yet a great opportunity to decarbonization. 
+China's average annual growth rate hits approximately 15\% in automobile base since 1990, the momentum in the traditional automobile industry makes the transition toward sustainable transport especially difficult. 
 Therefore, the question of how to efficiently incentivize EV adoption closely links to environmental policy frameworks, which aim to mitigate greenhouse gas emissions and reduce urban air pollution. 
-
-
-
-    \subsection{Research Question}
-This paper aims to answer the following research question:To what extent does the presence of indirect network effects from charging stations influence the substitutional patterns and the effectiveness of policy incentives on EV adoption in China?
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.7\textwidth]{GraphsTables/EV_charging.png}
+    \includegraphics[width=0.7\textwidth]{GraphsTables/total_shares_ev_ice_shanghai.png}
+    \caption{EV and ICE Market Shares in Shanghai (2019-2023)}
+    \label{fig:total_shares_ev_ice_shanghai}
+\end{figure} 
+
+For the past two decades, China has been at the forefront of EV adoption, with a significant share of the global EV market. 
+The Chinese government has implemented a range of policies to promote EV adoption, including direct monetary incentives, indirect policies favouring EV usage in transport, and the recent shift of focus onto charging infrastructure. 
+The unique nature of a two-sided market between EVs and charging stations presents a special opportunity for policy design, leveraging the presence of feedback effects caused by the indirect network externalities between the two sides. 
+With the strong incentives from the Chinese government, complemented with various local restrictions on the ICE vehicles, the displacement of ICE vehicles by EVs has been rapid, as shown in Figure 1 taking Shanghai as an example. 
+Global successes with EV penetration have demonstrated the need for government intervention, but leaving the matter of efficiency underexplored. 
+Therefore, this paper aims to address a range of policy questions in relation to the promotion of both EV and charging station deployment, through structually modelling the interaction between EVs and charging facilitites, and explore for efficient policy mix under indirect network effect.
+
+
+\section{Industrial Background and Policy}
+    \subsection{EV market}
+The Chinese EV market has experienced a rapid expansion period over the last decade, and various incentives in the form of both central and disaggregated policies have contributed to the process. 
+Back in 2009, the Chinese government first initiated the experimental policy initiative of "1,000 EVs in 10 cities", aiming at introducing new energy vehicles at 10 cities per year. 
+To initialize EV adoption, the replacecment over traditional ICE cars originated from public transports, taxi, and other government-led fields. 
+However, EV penetration was unsuccessful during ealier stages due to immature production technology, lack of scale and insufficient support from infrastures. 
+Within the same period, monetary incentives were also introduced on both supply and demand side in the form of cost rebates and purchase subsidies. 
+In 2014, a uniform tax exemption was placed for on all purchases of BEVs and PHEVs. 
+In the meantime, local governments following central guidelines, began to initiate indirect policies favouring EVs over traditional ICE vehicles. 
+Typical examples were travel restrictions that EVs were exempted from, parking previleges, and additional registration quota for EVs.
+However, the explosive rise of EV market share had a strong reliance on intense monetary incentives, as a result, subsidy frauds also came as a side effect. 
+As a result, the attention gradually shifted from direct to indirect policies, among which infrastructure supply was a key target due to the unique two-sided market feature of EV. 
+From 2017, direct purchase subsidies started exiting, substituted by construction cost rebate and operational subsidies for charging infrastructures. 
+In addition, the 'Dual Credit Policy' published in 2017 effectively ensured a minimum share for EV sales from the supply side, also resulted in a large scale entry of traditional ICE automobile players into EV production. 
+In consequence, competition intensified accompanied with a rapid increase in the number of models available.
+Following expansion of the technology frontier which reduced product differentiation in low-end models, aggressive pricing behaviours were widely adopted in response to the increase in price sensitivity.
+
+In the period of 2019-2023, with the full exit of uniform purchase subsidies, attribute-based subsidies and tax exemptions were the only major central incentives remaining. 
+Range-based subsidies and infrastructure deployment requirements were introduced to lead the market towards solving range-anxiety associated with EVs. 
+Throughout the period, range-based subsidies continued to exit from low to high range categories following previously determined schedules, creating exogenous time variations for policy evaluations. 
+Table 1 shows the range-based subsidy schedule for BEVs and PHEVs.
+
+\begin{table}[h]
+\centering
+\caption{Range-Based Subsidy by Year (10,000 CNY)}
+\label{tab:subsidies}
+\begin{tabular}{lcccc}
+Year & PHEV & & BEV \\
+Range & $R \geq 50$ & $300 \geq R \geq 250$ & $400 \geq R \geq 300$ & $R \geq 400$ \\
+2019 & 1.00 & 1.80 & 1.80 & 2.50 \\
+2020 & 0.85 & 0.00 & 1.62 & 2.225 \\
+2021 & 0.68 & 0.00 & 1.30 & 1.80 \\
+2022 & 0.48 & 0.00 & 0.91 & 1.26 \\
+2023 & 0.00 & 0.00 & 0.00 & 0.00 \\
+\end{tabular}
+\end{table}
+
+
+    \subsection{Charging station market}
+
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{GraphsTables/total_ev_charging_trend.png}
     \caption{EV Stock and Charging Station Stock in China (2019-2023)}
     \label{fig:EV_charging}
 \end{figure}
+
 
 \section{literature Review}
 This study primarily relates to the following three strands of literature. 
@@ -50,7 +113,8 @@ Finally, Heid et al. (2024) enriched the modelling further by bringing in electr
 They found that But they focus primarily on the strand of endogenous product attributes and abstracted away from the supply-side decision on charging station entry. To the best of my knowledge, there is yet a systematic study of the Chinese EV market that incorporates indirect network effects.
         
         Indirect Network Effect \\
-The interaction between EV and charging station presents a typical example of a two-sided market, in which the presence of indirect network effect would generally alter policy implications significantly. The literature on indirect network effect traces back to the earlier theoretical works such as Katz and Shapiro (1985) and Farrel and Saloner (1985). 
+The interaction between EV and charging station presents a typical example of a two-sided market, in which the presence of indirect network effect would generally alter policy implications significantly. 
+The literature on indirect network effect traces back to the earlier theoretical works such as Katz and Shapiro (1985) and Farrel and Saloner (1985). 
 This study specifically adds to the strand of automobile demand modelling by testing the result of indirect network effect in the Chinese market.
 
 
@@ -61,49 +125,55 @@ EV policies have been pivotal to the net-zero target of China, where a wide-rang
 In particular, the question on policy exit effect is rarely asked for this relatively yound industry, and this paper adds to that direction, by extending the question of optimal policy mix in Springel (2021) to exploring the compensatory effects of policy substitutions.
 
 
-\section{Industrial Background and Policy}
-    \subsection{Development of Chinese EV market}
-The Chinese EV market has experienced a rapid expansion period over the last decade, and various incentives in the form of both central and disaggregated policies have contributed to the process. 
-Back in 2009, the Chinese government first initiated the experimental policy initiative of "1,000 EVs in 10 cities", aiming at introducing new energy vehicles at 10 cities per year. To initialize EV adoption, 
-the replacecment over traditional ICE cars initially took place in public transports, taxi, and other government-led fields. However, EV penetration was unsuccessful during ealier stages due to immature industry of EV production, technologies and infrastures. 
-Within the same period, monetary incentives were also introduced on both supply and demand side in the form of cost rebates and purchase subsidies. In 2014, a uniform tax rebate policy was introduced for all purchases on BEVs and PHEVs. These conitnued to exist until the environmental policies gradually gained public attention in major cities. 
-Many local environmental policies had taken the form of travel and registration restrictions on traditional vehicles while leaving EV unaffected. As technologies progressed, prices effects combining with usage value rise accelerated EV penetration.
-
-In the starting period, EV share rised explosively but with a strong reliance on intense monetary incentives, as a result, subsidy frauds also came as a side effect. As a result, the attention gradually shifted from direct to indirect policies, 
-among which infrastructure supply was a key target due to the unique two-sided market feature of EV. From 2017, policy exists on direct subsides was complemented by construction cost rebate and operational subsidies for charging stations. In the meantime, foreign capital restrictions were lifted for automobile producers, 
-following the entry of Tesla's super-factory in Shanghai, number of brands began to rise, pushing up the intensiveness of differentiated product competition. In addition, the 'Dual Credit Policy' published in 2017 effectively ensured a minimum share for EV from the supply side, 
-resulted in large scale entires of traditional ICE automobile players to expand into EV production.
-
-    \subsection{Central/local government incentives: purchase and infrastructure} 
 
 \section{Data}
-The data I use is combiled from a variety of sources, including a commercial source that aggregated registry data from the Chinese Association of Automobile Manufacturers (CAAM), indiative price and range data from the Minstry of Industry and Information Technology (MIIT), 
-charging station stock data from the China Electric Vehicel Charging Infrastcture Promotion Alliance (EVCIPA), the province-level demographic data National Bureau of Statistics (NBS), and supplementary information on a wide-range of government incentives at different levels.
+The data I use is combiled from a variety of sources, including a commercial source that aggregated registry data from the Chinese Association of Automobile Manufacturers (CAAM), 
+indiative price and range data from the Minstry of Industry and Information Technology (MIIT), 
+charging piles stock data from the China Electric Vehicel Charging Infrastcture Promotion Alliance (EVCIPA), 
+the province-level demographic data National Bureau of Statistics (NBS), and supplementary information on a wide-range of government incentives at different levels.
 
-The primary data set is the sales data where each entry contains the number of sales for a particular model within a province in a given year in the range of 2019-2023, it also contains brand, fuel-type and two supplementary product characteristics of each model: mass and power. 
-This data set is over all types of private cars, consisting ICE cars and EVs that can be further divided into BEVs and PHEVs. The data set was purchased from a commercial source that aggregated micro data of Compulsory Traffic Accident Liability Insurance (CTALI) maintained by the CAAM.
-It is common practice to use this measure as proxy for car purchases in the Chinese market, as CTALI registed cars are the ones actually in-use. The number of models appears to vary across years and the availability of some are not uniform across provinces. I define a market as the unit of observation at the model-year-province level, 
-the data set consisting of ?? models, 31 provinces over a 5-years interval, gives me a total number of ?? observations. This sample size is significant compares to other studies due to the large geographic dimension and uniquely rich diversification in the Chinese automobile market, supported by its market base.
+The primary data set is the sales data where each entry contains the number of sales for a particular model within a province in a given year during 2019-2023, 
+it also contains brand, fuel-type and two supplementary product characteristics of each model: mass and power. 
+This data set is over all types of private cars, consisting ICE cars and EVs that can be further divided into BEVs and PHEVs. 
+The data set was purchased from a commercial source that aggregated micro data of Compulsory Traffic Accident Liability Insurance (CTALI) maintained by the CAAM.
+It is common practice to use this measure as proxy for car purchases in the Chinese market, as CTALI registed cars are the ones actually in-use. 
+The number of models appears to vary across years and the availability of some are not uniform across provinces. 
+I define a market as a province-year pair, and a the unit of observation at the model-market level.
+The data set consists of 31 provinces over a 5-years interval with varying models existing in different markets, giving me a total number of 25260 observations. 
+This sample size is significant compares to other studies due to the large geographic dimension and uniquely rich diversification in the Chinese automobile market, supported by its market base.
 
-The second data set collected information on indicative price range published by the MITT, and I use the midpoint of which as the market price. It also contains the range of each model. 
+The second data set I built by combiling registration information on EV models, Manufacturer Suggested Retail Price (MSRP) and range published by the MITT, 
+and I use the midpoint of the MSRP interval as a proxy for the market price. The regulation in the Chinese market sets a price floor for the manufacturers, 
+thus the use of MSRP can be seen as reasonable proxy for transaction prices. 
+The data set also contains the range and battery capacity of each model, which I use to match models to subsidy schedules and as observed product characteristics.
 
-I also obtain the charging station stock at the province-year level from 2018-2023.
+I also obtain the charging piles stock at the province-year level from 2018-2023.
+Different to previous studies that used the number of charging stations which is not readily available for the Chinese market, 
+I use the number of charging piles as the measure of charging infrastructure.
+This measure is directly relevant to consumers' charging decisions while still fits into the commonly assumed modelling framework. 
+As previously introduced, charging industry in China is highly concentrated with a partially-regulated nature, meaning that charging points are largely standardized.
+Additionally, as the incentives on charging infrastructures are primarily in the unit of charging piles, it is more natural to use the number of charging piles as the measure of charging infrastructure.
 
-Lastly, I combile mean and standard deviation of demographic variables for each province-year, and use specifically the number of households as a proxy for the market size.
+Lastly, I combile from a wide range of Chinese government sources information on central and local policies as well as other statistics.
+Due to limited scope of this paper, I focus on central policies, accompanied by a small set of province-level polilcies that are easy to quantify and large in scale. 
+Control measures such as local demographics and transportation measures are also included for the purpose of controls, determining market-sizes, and construction of instrumental variables.
+I follow common practice to use number of households in a market as total market size.
 
-\section{Empirical Modelling}
+\section{Modelling}
     \subsection{Demand: Vehicle Choice}
     For modelling vehicle demand side, I follow the tradtitional setup of differentiated product demand estimation to use a random utility maximization setup for modelling of discrete choices. 
 In particular, assume there re \textit{m = 1,...,M} markets that is defined as a province-year pair within my context of study. Within each of the defined market, the modelling is on individual purchase decisions of \textit{i = 1,...,I\textsubscript{m}} number of potential consumers, 
 made over \textit{j = 1,...,J} different vehicle models in the product space. The conditional indirect utility of consumer $i$, $U(x_{jt}, \xi_{jt}, p_{jt}, \tau_i; \theta)$ of consuming product $j$ in market $m$ is specified as a function of both observed and unobserved product characteristics:
 
 \begin{equation}
-    u_{ijm} = \beta^N \log(N_jm) + \alpha p_{jm} + x_{jm} \beta^{ex} + \xi_{jm} + \bar{\epsilon}_{ijm}
+    u_{ijm} = \beta^N \log(N_m) + \alpha p_{jm} + x^{k}_{jm} \beta^{k} + \xi_{jm} + \bar{\epsilon}_{ijm}
 \end{equation}
 $i = 1,...,I_m, \ j = 0,..,J, \ m = 1,...,M,$
 
-where $p_{jm}$ denotes the net product price of product $j$ in market $m$, $y_{i}$ is the income of consumer, $x_{jt}$ is a $K$-dimensional row vector of observable produt characteristics of product j, $\xi_{jm}$ is the unobservable characteristics, 
-and $\bar{\epsilon}_{ijm}$ is a mean-zero stochastic term representing the remaining individual-specific valuation for product $j$. Additionally, an outside good representing no purchases is defined to have indirect utlity of $u_{i0m} = \bar{\epsilon}_{ijm}$.
+where $N_{m}$ denotes the number of public charging piles in the market, $p_{jm}$ denotes the net product price of product $j$ in market $m$,
+$x^{k}_{jt}$ is a $K$-dimensional row vector of observable produt characteristics of product j, $\xi_{jm}$ is the unobservable characteristics, 
+and $\bar{\epsilon}_{ijm}$ is a mean-zero stochastic term representing the remaining individual-specific valuation for product $j$. 
+Additionally, an outside good representing no purchases is defined to have indirect utlity of $u_{i0m} = \bar{\epsilon}_{ijm}$.
 Consumer $i$ chooses between the outside good 0 and other $J$ differentiated products in the market and purchases one unit of good $j$ if and only if $u_{ijm} > u_{ikm}$ for all $k \geq 0$ and $k \neq j$. 
 As a standard practice notation-wise, I define the mean utility level of product $j$ in market $m$ as:
 
@@ -149,6 +219,7 @@ Thus, the overall market share of product $j$ in market $m$ reads:
 \end{equation}
 
 Specifically, the outside good as the only product in group 0, with normalizations $\delta_0 \equiv 0$ and $D_0 = 1$, has a market share of:
+
 \begin{equation}
     s_{0m} = \frac{1}{\sum_{g} D_g^{(1-\rho)}}  
 \end{equation}
@@ -162,19 +233,22 @@ From setting out the model and predicted market share, taking natural logarithms
 Recalling the definition of $D_g$ and $\delta_{jm}$ gives the final form:
 
 \begin{equation}
-    \log(s_{jm}) - \log(s_{0m}) - \rho\log(s_{j/g}) = \beta^N \log(N_jm) + \alpha p_{j} + x_j\beta + \xi_{jm}
+    \log(s_{jm}) - \log(s_{0m}) - \rho\log(s_{j/g, m}) = \beta^N \log(N_{jm}) + \alpha p_{j} + x_j\beta + \xi_{jm}
 \end{equation}
 
 The additional term $\rho\log(s_{j/g})$ accounts for the correlation of preferences within groups, which is put to the left of equation indicating its endogeneity as in Conlon and Gortmaker (2020).  
 
+I abstract from car supply modelling in this study due to the limited scope to focus primarily on the primary demand estimation and indirect network effects.
+I assume that product characteristics are exogenous to the model, and take implicitly the marginal costs as given by the Nash-Bertrand competition assumption.
+
     \subsection{Supply: Station Entry}
-    My specification closely follows that of Springel (2021) and Remmy (2023). Let $h = 1, ..., N_{m}$ denote the set of charging station firms, and $j = 1,...,J$ denote the set of vehicle models. Assume firms are price-setters and that each firm maximizes profits over a subset $J_f$.
+My specification closely follows that of Springel (2021) and Remmy (2023). Let $h = 1, ..., N_{m}$ denote the set of charging station providers, and $j = 1,...,J$ denote the set of vehicle models. Assume firms are price-setters and that each firm maximizes profits over a subset $J_f$.
 Assuming a standard profit function that is quasi-concave in price, the per-consumer profit function is given as $D_{hm}(p_{hm}, p_{-hm}, N_{m}) (p_{hm} - MC_{hm})$, where the per-consumer demand $D_{hm}$ faced by firm $f$ is given by a function of charging station network $N_m$, 
 own price $p_{hm}$ and the price of competing firms $p_{-hm}$. Similarly to Springle (2021) and Remmy (2023), I make the following similifying assumptions in the spirit of Gandal, kende, and Rob (2000) and Bresnahan and Reiss (1991): 
     1. Symmetric per-consumer demand function;
     2. Constant marginal cost $MC_{hm}$ and sunk cost of entry $F_{hm} $ across all firms $f$ in market $m$;
-    3. Each station earns and equal share of market profit from symmetry.
-These assumptions ensures the eixstence of an equilibrium that all stations charge the same price, and the post-entry station profit per-period reads:
+    3. Each firm earns and equal share of market profit from symmetry.
+These assumptions ensures the eixstence of an equilibrium that all firms charge the same price, and the post-entry station profit per-period reads:
 
 \begin{equation}
     \pi_{m} = Q_{m}^{EV} \frac{D(p(N_m)) \phi(N_m)} {N_m}
@@ -195,80 +269,198 @@ Combining the station profit expression with the free-entry condition and taking
     \log(f(N_{pt})) = -\log(\frac{1}{(1 + r)})  - \log Q_{ct}^{EV} + \log(F_{pt} - \frac{1}{1 + r} F_{pt+1})
 \end{equation}
 
-Additionally, I leverage the unique feature of the policy structure in China, where province governments perform independent subsidizing polilicies of different forms across the observed period, bringing in additional variations to explore policy effectiveness.
-By specifying $f(N_{pt}) = (bN_{pt})^{-d}$ and assuming the entry cost $F_{pt}$ is a linear function of exogenous cost shifter, province demographics which captured by fixed effect $\rho_p$, and a time trend $\tau(t)$, the station entry model is specified as:
+Additionally, I leverage the unique feature of the policy structure in China, where province governments perform independent subsidizing polilicies of different forms across the observed period, 
+bringing in additional variations to explore policy effectiveness. Functional form of $f(N_{pt})$ is specified as $(bN_{pt})^{-d}$, 
+and the sunk cost of entry $F_{pt}$ is a linear function of exogenous cost shifter of fixed and current operating subsidies, 
+province demographics which captured by fixed effect $\rho_p$, and time fixed effect $\tau_{t}$. The station entry model is then specified as:
 
 \begin{equation}
-    \log(N_{pt}) = \lambda_0 + \lambda_1 \log(Q_{pt}^{EV}) + \lambda_2 FX_{it} + \lambda_3 OP_{it} + \lambda_4 \rho_p + \lambda_5 \tau(t) + \epsilon_{pt}
+    \log(N_{pt}) = \lambda_0 + \lambda_1 \log(Q_{pt}^{EV}) + \lambda_2 FX_{pt} + \lambda_3 OP_{pt} + \lambda_4 \rho_p + \lambda_5 \tau_t + \epsilon_{pt}
 \end{equation}
 
+I do not explicitly model the heterogeneous impact of new charging stations on existing stations due to lack of spatial data on stations.
+However, as previously discussed, the level of standarization in the Chinese charging industry makes this assumption more reasonable.
+Also, I assume the average number of charging piles per station in each market is exogenous after controlling for province fixed effects,
+which is based on the fact that charging pile deployment is largely determined by local demand features. 
+Therefore, I maintain the charging infrastructure modelling framework and replace station measure with charging piles.
 
+\section{Empirical Strategy}
+    \subsection{Identification: Demand}
+For the demand side, there are three sources of endogeneity to be dealt with. 
+The first being the traditional problem of endogenous prices caused by simultaneity problem of demand and supply.
+Following the rich literature on differentiated product demand estimation, I construct insutrments to identify price coefficient.
+I construct two sets of instruments, an exogenous cost shifter and a set of differentiation IVs, 
+constructed from assumed exogenous product characteristics.
 
-\section{Empiricals}
-    \subsection{Identification}
-    IV strategies
-    \subsection{Estimation}
+First, following Springel (2021), Barwick et al. (2024), and Remmy (2024), 
+I construct the exogenous cost shifter is constructed by interacting mass of a model with steel price index.
+Second, I construct a set of differentiation IVs following Gandhi and Houde (2019) using power, range and battery capacity. 
+The idea of leveraging exogenous product characteristics proposed in Berry et al. (1995), namely the BLP instruments, tend to cause weak identification in some cases. 
+The differentiation IVs qunatifies the level of competition faced by a product through some measures of its position in the product characteristics space.
+There are two subsets of instruments, one measures the Euclidean distance of a model's characteristics to other products, 
+and the other count the number of local products that are 'close' in characteristics.
+
+\begin{equation}
+Z_{jm,\text{Euclidean}}^{k} = \sum_{l \in \mathcal{C}\backslash\{m\}} (D_{m,jl}^{k})^2
+\end{equation}
+
+\begin{equation}
+Z_{jm,\text{local}}^{k} = \sum_{l \in \mathcal{C}\backslash\{m\}} \mathds{1}\{|D_{m,jl}^{k}| < \textit{sd}(D_{k})\}
+\end{equation}
+
+Where $D_{m,jl}^{k}$ is the distance between product $j$ and $l$ in market $m$ in characteristic $k$,
+$\textit{sd}(D_k)$ is the standard deviation of product characteristic $k$, and $\mathcal{C}$ is the set of all products in market $m$.
+Second, the endogeneity of the charging station network is caused by simultaneously determined equilrbrium between EVs and charging infrastructures.
+Similar to Li (2023), I use the lag of charging piles stock as an instrument assuming no dynamics in the shocks to unobservables.
+Lastly, the endogeneity of the within-group market share $s_{j/g}$ directly follows from the definition of the nested logit model.
+I adopt the traditional approach of using the size of product space of nest $g$ in market $m$ as an instrument.
+
+I argue for exogeneity of these instruments based on the following reasoning. For the cost shifter, 
+a commonly known feature of the automobile manufacturers is that frame designs for a model is determined at the beginning of the production cycle (Barwick et al., 2024),
+which means that mass is unlikely to be correlated to shocks in unobservables. Additionally, 
+based on the assumption of exogenouse product characteristics for car producers, and the large number of competitors in the automobile industry,
+the relative position of a product in the characteristics is expected to be exogenous. 
+As for the relevance of the instruments, the first stage $R^2$ and $F$ statistics adds validity to the strength of the instruments.
+
+    \subsection{Identification: Supply}
+Similarly, the expected feedback effect also introduced endogeneity to the charging station entry model.
+The cumulative EV base contains the endogenous part of new sales, which from the demand equation is a function of charging station network,
+causing simultaneity problem. An ideal instrument would be the difference in fuel price and electricity price for each market, which exogenously affects the cost of driving ICE vehicles and EVs. 
+Unfortunately, similar to the problem of Norway in Springel (2021), China has a uniform gas and electricity price across the country,
+and I do not obtain spatial data for gas stations to construct the proposed instrument of gas station density.
+I instead use a Bartick-style instrument following Li et al. (2017) and Koch et al. (2021), 
+wihch is constructed as the interaction between total length of roads in a market and a national fuel price index.
+The idea is that the a national shock in fuel price would affect local cost of driving ICE vehicles differentially, 
+and the total road length is a proxy for the level of development of local transportation infrastructure, which impacts the level of fuel consumption.
+Another shift-share instrument I use is a sales-weighted average range measure of all available EV models in a market.
+This instrument leverage on the fact that the national range-based subsidy schemes itself has multiple steps in range categories,
+therefore the higher the range of available models, the more heavily the market is to be subsidized.
+Similarly, first stage $R^2$ and $F$ statistics are used to validate relevance of used instruments.
 
 
 \section{Results}
 
     \subsection{Demand}
+The vehicle demand equation (equation 11) and the charging entry equation (equation 15) are estimated jointly using a two-stage least squares (2SLS) approach.
+Results of the demand-side model estimates are displayed in Table 2. 
 
-    Elasticities (absent of indirect network effect) \\
-\begin{figure}[htbp]
+\begin{table}[!htbp]
     \centering
-    \includegraphics[width=0.7\textwidth]{GraphsTables/elasticity_plot.png}
-    \caption{Example of Elasticities (Shanghai, 2019)}
-    \label{fig:Elasticities}
-\end{figure}
-
-\begin{table}[htbp]
-\centering
-\caption{Rho and Beta Estimates (Robust SEs in Parentheses)}
-\begin{tabular}{lcccc}
-\hline
- & Rho (All Groups) & prices & is\_electric & is\_electric*log\_charging\_IV \\
-\hline
-Estimate & $+9.9\mathrm{E}{-01}$ & $-2.4\mathrm{E}{-01}$ & $-8.6\mathrm{E}{+00}$ & $+6.7\mathrm{E}{-01}$ \\
-(SE)     & $(+1.5\mathrm{E}{-02})$ & $(+2.3\mathrm{E}{-03})$ & $(+2.2\mathrm{E}{-01})$ & $(+2.2\mathrm{E}{-02})$ \\
-\hline
-\end{tabular}
+    \begin{tabular}{@{\extracolsep{5pt}}lc}
+        \\[-1.8ex]\hline
+        \hline \\[-1.8ex]
+        & \multicolumn{1}{c}{\textit{Dependent variable: log($s_{jm}$)}} \\
+        \cline{2-2}
+        \\[-1.8ex] & (1) \\
+        \hline \\[-1.8ex]
+        price ($\alpha$)     & $-0.015^{***}$ \\
+                  & $(0.003)$      \\
+        nesting coefficient ($\rho$)     & $0.382^{***}$ \\
+                  & $(0.079)$      \\
+        Charging station network ($\beta^{N}$) & $0.301^{***}$ \\
+                  & $(0.031)$      \\
+        \hline \\[-1.8ex]
+        Observations         & 25260 \\
+        $R^2$               & 0.628 \\
+        Residual Std. Error & 1.711 (df=25248) \\
+        F Statistic         & 465283.695$^{***}$ (df=12; 25248) \\
+        \hline
+        \hline \\[-1.8ex]
+        \textit{Note:} & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+    \end{tabular}
 \end{table}
 
-
-
-    \subsection{Supply}
+The three key parameters of interest are all of the expected signs and statistically significant to the 1\% level.
+The magnitude price coefficient $\alpha$ 
 
 
 \begin{table}[!htbp]
 \centering
-\begin{tabular}{@{\extracolsep{5pt}}lcc}
+\begin{tabular}{@{\extracolsep{5pt}}lccccccc}
 \\[-1.8ex]\hline
+\\hline \\[-1.8ex]
+& Roewe Ei5 & BMW X1 & NIO ES6 & NIO ES8 & XPeng G3 & Audi A6L & Kia K5 \\
 \hline \\[-1.8ex]
-\\[-1.8ex] & (1) & (2) \\
+Roewe Ei5 & -2.264212 & 0.000357 & 1.294718 & 1.225499 & 0.306210 & 0.000148 & 0.000043 \\
+BMW X1 & 0.000708 & -7.800119 & 0.000896 & 0.000848 & 0.000212 & 0.288234 & 0.083768 \\
+NIO ES6 & 1.022986 & 0.000357 & -10.232671 & 1.225499 & 0.306210 & 0.000148 & 0.000043 \\
+NIO ES8 & 1.022986 & 0.000357 & 1.294718 & -13.882187 & 0.306210 & 0.000148 & 0.000043 \\
+XPeng G3 & 1.022986 & 0.000357 & 1.294718 & 1.225499 & -4.255680 & 0.000148 & 0.000043 \\
+Audi A6L & 0.000708 & 0.694081 & 0.000896 & 0.000848 & 0.000212 & -14.346176 & 0.083768 \\
+Kia K5 & 0.000708 & 0.694081 & 0.000896 & 0.000848 & 0.000212 & 0.288234 & -4.703449 \\
 \hline \\[-1.8ex]
- Intercept & & 11.132$^{***}$ \\
-& & (0.382) \\
- $log(EV_stock)$ & 0.301$^{}$ & \\
-& (1.036) & \\
- time\_trend & 0.286$^{}$ & \\
-& (0.453) & \\
- shift\_share\_IV & & 0.000$^{***}$ \\
-& & (0.000) \\
-\hline \\[-1.8ex]
-Fixed Effects & Province-Year &  \\
- Observations & 155 & 155 \\
- $R^2$ & 0.973 & 0.126 \\
- Residual Std. Error & 1.747 (df=122) & 0.558 (df=153) \\
- F Statistic & 1004081.737$^{***}$ (df=33; 122) & 13.667$^{***}$ (df=2; 153) \\
-\hline
-\hline \\[-1.8ex]
-\textit{Note:} & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
 \end{tabular}
+\caption{Elasticity matrix WITHOUT network effects (selected EV models)}
 \end{table}
 
 
+\begin{table}[!htbp]
+\centering
+\begin{tabular}{@{\extracolsep{5pt}}lccccccc}
+\\[-1.8ex]\hline
+\\hline \\[-1.8ex]
+& Roewe Ei5 & BMW X1 & NIO ES6 & NIO ES8 & XPeng G3 & Audi A6L & Kia K5 \\
+\hline \\[-1.8ex]
+Roewe Ei5 & -2.062731 & 0.000001 & 0.002412 & 0.011392 & 0.000011 & 0.000003 & 0.000010 \\
+BMW X1 & 0.000001 & -6.011112 & 0.000023 & 0.000111 & 0.000847 & 0.005478 & 0.000000 \\
+NIO ES6 & 0.000071 & 0.000001 & -1.491673 & 0.011392 & 0.000011 & 0.000003 & 0.000010 \\
+NIO ES8 & 0.000071 & 0.000001 & 0.002412 & -1.291285 & 0.000011 & 0.000003 & 0.000010 \\
+XPeng G3 & 0.000001 & 0.016466 & 0.000021 & 0.000101 & -4.616104 & 0.008292 & 0.000000 \\
+Audi A6L & 0.000001 & 0.008999 & 0.000023 & 0.000107 & 0.005434 & -3.097672 & 0.000000 \\
+Kia K5 & 0.000071 & 0.000001 & 0.002412 & 0.011392 & 0.000011 & 0.000003 & -2.420821 \\
+\hline \\[-1.8ex]
+\end{tabular}
+\caption{Elasticity matrix WITH network effects (selected EV models)}
+\end{table}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{GraphsTables/elasticity_plot.png}
+    \caption{Heatmap of Elasticity Matrix for Selected Market}
+    \label{fig:elasticity_heatmap}
+\end{figure}
+
+    \subsection{Supply}
+
+\begin{table}[!htbp]
+    \centering
+    \begin{tabular}{@{\extracolsep{5pt}}lc}
+        \\[-1.8ex]\hline
+        \hline \\[-1.8ex]
+        & \multicolumn{1}{c}{\textit{Dependent variable: log($N_{m}$)}} \\
+        \cline{2-2}
+        \\[-1.8ex] & (1) \\
+        \hline \\[-1.8ex]
+        fixed subsidy      & $-0.000$ \\
+                          & $(0.000)$ \\
+        operating subsidy  & $0.199$ \\
+                          & $(0.342)$ \\
+        EV base        & $0.596^{**}$ \\
+                          & $(0.240)$ \\
+        \hline \\[-1.8ex]
+        Observations         & 155 \\
+        $R^2$               & 0.973 \\
+        Residual Std. Error & 1.762 (df=120) \\
+        F Statistic         & 975317.181$^{***}$ (df=35; 120) \\
+        \hline
+        \hline \\[-1.8ex]
+        \textit{Note:} & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+    \end{tabular}
+\end{table}
+
 \section{Policy Counterfactuals}
+
+\begin{tabular}{rlllr}
+\hline
+    & Scenario     & Total EV Sales   & Total N in 2023   &   Gov Spending \\
+\hline
+  0 & Status Quo   & 0 (0\%)           & 0 (0\%)            &              0 \\
+  1 & Demand Only  & 1502469 (3.0\%)   & 49538 (2.1\%)      &       55679416 \\
+  2 & Station Only & 26328 (0.1\%)     & 20086 (0.8\%)      &      209791521 \\
+  3 & Purchase     & 546121 (1.1\%)    & 20361 (0.8\%)      &       25234806 \\
+  4 & Tax          & 1242132 (2.5\%)   & 52053 (2.2\%)      &       60175014 \\
+\hline
+\end{tabular}
 
 
 \section{Conclusion}
