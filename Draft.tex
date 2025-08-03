@@ -72,6 +72,9 @@ Range-based subsidies and infrastructure deployment requirements were introduced
 Throughout the period, range-based subsidies continued to exit from low to high range categories following previously determined schedules, creating exogenous time variations for policy evaluations. 
 Table 1 shows the range-based subsidy schedule for BEVs and PHEVs.
 
+which is consistent with the hypothesized purchase decision process, 
+that consumers in China chooses groups primarily based on their driving needs in terms of frequency, destinations and distance. 
+
 \begin{table}[h]
 \centering
 \caption{Range-Based Subsidy by Year (10,000 CNY)}
@@ -94,7 +97,7 @@ Range & $R \geq 50$ & $300 \geq R \geq 250$ & $400 \geq R \geq 300$ & $R \geq 40
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{GraphsTables/total_ev_charging_trend.png}
-    \caption{EV Stock and Charging Station Stock in China (2019-2023)}
+    \caption{EV Stock and Charging Piles Stock in China (2019-2023)}
     \label{fig:EV_charging}
 \end{figure}
 
@@ -166,19 +169,27 @@ In particular, assume there re \textit{m = 1,...,M} markets that is defined as a
 made over \textit{j = 1,...,J} different vehicle models in the product space. The conditional indirect utility of consumer $i$, $U(x_{jt}, \xi_{jt}, p_{jt}, \tau_i; \theta)$ of consuming product $j$ in market $m$ is specified as a function of both observed and unobserved product characteristics:
 
 \begin{equation}
-    u_{ijm} = \beta^N \log(N_m) + \alpha p_{jm} + x^{k}_{jm} \beta^{k} + \xi_{jm} + \bar{\epsilon}_{ijm}
+    u_{ijm} = \beta^{EV} EV_j+ \beta^N \log(N_m) + \beta^N_{EV} (\log(N_m) \times EV_j) + \alpha p_{jm} + x^{K}_{jm} \beta^{K} + \xi_{jm} + \bar{\epsilon}_{ijm}
 \end{equation}
 $i = 1,...,I_m, \ j = 0,..,J, \ m = 1,...,M,$
 
-where $N_{m}$ denotes the number of public charging piles in the market, $p_{jm}$ denotes the net product price of product $j$ in market $m$,
-$x^{k}_{jt}$ is a $K$-dimensional row vector of observable produt characteristics of product j, $\xi_{jm}$ is the unobservable characteristics, 
-and $\bar{\epsilon}_{ijm}$ is a mean-zero stochastic term representing the remaining individual-specific valuation for product $j$. 
+where $EV_j$ is an indicator equal to 1 if the model is EV, $N_{m}$ denotes the number of public charging piles in the market, 
+$p_{jm}$ denotes the net product price of product $j$ in market $m$, 
+$x^{k}_{jt}$ is a $K$-dimensional row vector of observable produt characteristics of product j,
+including power, range and battery capacity, where range and battery capacity are set to 0 for non-EVs, 
+$\xi_{jm}$ is the unobservable characteristics,
+and $\bar{\epsilon}_{ijm}$ is a mean-zero stochastic term representing the remaining idiosyncratic valuation for product $j$. 
+
+Different to earlier studies, I allow for general effect of charging infrastructure on all vehicles,
+which captures the impact of public infrastructure favouring EVs that put limitations on ICE vehicles,
+and the network feedback is measured by the combined effect of $\beta^N$ and $\beta^N_{EV}$.
+
 Additionally, an outside good representing no purchases is defined to have indirect utlity of $u_{i0m} = \bar{\epsilon}_{ijm}$.
 Consumer $i$ chooses between the outside good 0 and other $J$ differentiated products in the market and purchases one unit of good $j$ if and only if $u_{ijm} > u_{ikm}$ for all $k \geq 0$ and $k \neq j$. 
 As a standard practice notation-wise, I define the mean utility level of product $j$ in market $m$ as:
 
 \begin{equation}
-    \delta_{jm} \equiv \beta^N \log(N_jm) + \alpha p_{jm} + x_{jm}\beta + \xi_{jm}
+    \delta_{jm} \equiv \beta^{EV} EV_j+ \beta^N \log(N_m) + \beta^N_{EV} (\log(N_m) \times EV_j) + \alpha p_{jm} + x^{K}_{jm} \beta^{K} + \xi_{jm}
 \end{equation}
 
 Following the distributional assumptions of the nested logit model, the individual valuation term $\bar{\epsilon}_{ijm}$ can be further decomposed as:
@@ -195,7 +206,9 @@ Summarizing above, consumer $i$'s conditional indrect utility can now be written
     u_{ijm} = \delta_{jm} + \sum_{g} d_{jgm}\zeta_{jgm} + (1 - \rho) \epsilon_{ijm}
 \end{equation}
 
-The nested logit model assumes that the i.i.d shock $\epsilon_{ijm}$ follows a type I extreme value distribution, and as shown by Cardell (1997), there exist a unique distribution of $\zeta_{ig}$ that $[\zeta_{ig} + (1-\rho)\epsilon]$ also follows an extreme value distribution. The distributional assumptions allow for closed-form solutions for the choice probabilities.
+The nested logit model assumes that the i.i.d shock $\epsilon_{ijm}$ follows a type I extreme value distribution, 
+and as shown by Cardell (1997), there exist a unique distribution of $\zeta_{ig}$ that $[\zeta_{ig} + (1-\rho)\epsilon]$ also follows an extreme value distribution. 
+The distributional assumptions allow for closed-form solutions for the choice probabilities. I categorize products into three nests: ICE vehicles, BEVs and PHEVs. 
 In the spirit of Berry (1994), I write the well-known result of choice probability of choosing product $j$ within group $g$, which equivalent gives the within-group market of product $j$:
 
 \begin{equation}
@@ -233,7 +246,7 @@ From setting out the model and predicted market share, taking natural logarithms
 Recalling the definition of $D_g$ and $\delta_{jm}$ gives the final form:
 
 \begin{equation}
-    \log(s_{jm}) - \log(s_{0m}) - \rho\log(s_{j/g, m}) = \beta^N \log(N_{jm}) + \alpha p_{j} + x_j\beta + \xi_{jm}
+    \log(s_{jm}) - \log(s_{0m}) - \rho\log(s_{j/g, m}) = \beta^{EV} EV_j+ \beta^N \log(N_m) + \beta^N_{EV} (\log(N_m) \times EV_j) + \alpha p_{jm} + x^{K}_{jm} \beta^{K} + \xi_{jm}
 \end{equation}
 
 The additional term $\rho\log(s_{j/g})$ accounts for the correlation of preferences within groups, which is put to the left of equation indicating its endogeneity as in Conlon and Gortmaker (2020).  
@@ -341,111 +354,122 @@ Similarly, first stage $R^2$ and $F$ statistics are used to validate relevance o
 \section{Results}
 
     \subsection{Demand}
-The vehicle demand equation (equation 11) and the charging entry equation (equation 15) are estimated jointly using a two-stage least squares (2SLS) approach.
-Results of the demand-side model estimates are displayed in Table 2. 
+The vehicle demand equation (equation 11) and the charging entry equation (equation 15) are specified as linear IV models and estimated jointly using a two-stage least squares (2SLS).
+Results of the demand-side model estimates are displayed in Table 2. All parameters are of expected sign and statistically significant at the 1\% level.
 
-\begin{table}[!htbp]
-    \centering
-    \begin{tabular}{@{\extracolsep{5pt}}lc}
-        \\[-1.8ex]\hline
-        \hline \\[-1.8ex]
-        & \multicolumn{1}{c}{\textit{Dependent variable: log($s_{jm}$)}} \\
-        \cline{2-2}
-        \\[-1.8ex] & (1) \\
-        \hline \\[-1.8ex]
-        price ($\alpha$)     & $-0.015^{***}$ \\
-                  & $(0.003)$      \\
-        nesting coefficient ($\rho$)     & $0.382^{***}$ \\
-                  & $(0.079)$      \\
-        Charging station network ($\beta^{N}$) & $0.301^{***}$ \\
-                  & $(0.031)$      \\
-        \hline \\[-1.8ex]
-        Observations         & 25260 \\
-        $R^2$               & 0.628 \\
-        Residual Std. Error & 1.711 (df=25248) \\
-        F Statistic         & 465283.695$^{***}$ (df=12; 25248) \\
-        \hline
-        \hline \\[-1.8ex]
-        \textit{Note:} & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
-    \end{tabular}
+\begin{table}[!htbp] \centering
+\begin{tabular}{@{\extracolsep{5pt}}lc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{1}{c}{\textit{Demand Model Estimates}} 
+\cr \cline{2-2}
+\\[-1.8ex] & (1) \\
+\hline \\[-1.8ex]
+ price & -0.121$^{***}$ \\
+& (0.012) \\
+ nesting coefficient & 0.811$^{***}$ \\
+& (0.115) \\
+ $\log(N_m) \times EV_j$ & 1.188$^{***}$ \\
+& (0.066) \\
+ $EV_j$ & -15.658$^{***}$ \\
+& (0.676) \\
+ $\log(N_m)$ & -0.606$^{***}$ \\
+& (0.075) \\
+ range & 0.004$^{***}$ \\
+& (0.000) \\
+ power & 0.015$^{***}$ \\
+& (0.002) \\
+ battery capacity & 0.001$^{***}$ \\
+& (0.000) \\
+\hline \\[-1.8ex]
+ Observations & 33545 \\
+ $R^2$ & 0.982 \\
+ Residual Std. Error & 11.915 (df=33537) \\
+ F Statistic & 72390.913$^{***}$ (df=8; 33537) \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
 \end{table}
 
-The three key parameters of interest are all of the expected signs and statistically significant to the 1\% level.
-The magnitude price coefficient $\alpha$ 
+The estimates on $\log(N_m)$ confirms the speculated negative impact of charging infrastructure onto general vehicles by crowding out public resources such as parking spaces.
+Moreover, the estimate of interaction term is positive and larger in magnitude than the general impact, 
+with a net effect of 0.582 on EVs, which confirms the presence of indirect network effect to EVs in the demand side.
+Other coefficients are as expected, that consumers prefer longer range, more powerful and stronger battery performance on their EVs.
+The nesting coefficient of 0.811 indicates a strong preference correlation within each nest.
 
+The negative price coefficient of translates to market avergae own price elasticities in the range of -4.1509 to -7.3567 for EVs,
+with a standard deviation of 0.7814. A sample of elasticities of Shanghai in 2019 is presented in Table 2 and 3.
 
 \begin{table}[!htbp]
 \centering
-\begin{tabular}{@{\extracolsep{5pt}}lccccccc}
+\begin{tabular}{@{\extracolsep{5pt}}lccccc}
 \\[-1.8ex]\hline
 \\hline \\[-1.8ex]
-& Roewe Ei5 & BMW X1 & NIO ES6 & NIO ES8 & XPeng G3 & Audi A6L & Kia K5 \\
+& XPeng P5 & BYD D1 & Toyota C-HR & Kia K3 & Qin Pro \\
 \hline \\[-1.8ex]
-Roewe Ei5 & -2.264212 & 0.000357 & 1.294718 & 1.225499 & 0.306210 & 0.000148 & 0.000043 \\
-BMW X1 & 0.000708 & -7.800119 & 0.000896 & 0.000848 & 0.000212 & 0.288234 & 0.083768 \\
-NIO ES6 & 1.022986 & 0.000357 & -10.232671 & 1.225499 & 0.306210 & 0.000148 & 0.000043 \\
-NIO ES8 & 1.022986 & 0.000357 & 1.294718 & -13.882187 & 0.306210 & 0.000148 & 0.000043 \\
-XPeng G3 & 1.022986 & 0.000357 & 1.294718 & 1.225499 & -4.255680 & 0.000148 & 0.000043 \\
-Audi A6L & 0.000708 & 0.694081 & 0.000896 & 0.000848 & 0.000212 & -14.346176 & 0.083768 \\
-Kia K5 & 0.000708 & 0.694081 & 0.000896 & 0.000848 & 0.000212 & 0.288234 & -4.703449 \\
+XPeng P5 & -8.497132 & 0.081654 & 0.004500 & 0.000036 & 0.000006 \\
+BYD D1 & 0.025155 & -8.405643 & 0.004500 & 0.000036 & 0.000006 \\
+Toyota C-HR & 0.025155 & 0.081654 & -8.599428 & 0.000036 & 0.000006 \\
+Kia K3 & 0.000048 & 0.000156 & 0.000009 & -6.943025 & 0.003050 \\
+Qin Pro & 0.000048 & 0.000156 & 0.000009 & 0.018988 & -4.798381 \\
 \hline \\[-1.8ex]
 \end{tabular}
-\caption{Elasticity matrix WITHOUT network effects (selected EV models)}
+\caption{Elasticity matrix WITHOUT network effects - EV models with negative network effects}
 \end{table}
 
+
+Table 2 shows the elasticities without accounting for the feedback effect from the charging network. 
+The own price elasticities are generally greater than 1 in absolute value, 
+which are inline with the literature on vehicle demand taking price units into account (Li et al., 2017), (Springel, 2021), (Remmy, 2024), (Barwick et al., 2024).
+The 
 
 \begin{table}[!htbp]
 \centering
-\begin{tabular}{@{\extracolsep{5pt}}lccccccc}
+\begin{tabular}{@{\extracolsep{5pt}}lccccc}
 \\[-1.8ex]\hline
 \\hline \\[-1.8ex]
-& Roewe Ei5 & BMW X1 & NIO ES6 & NIO ES8 & XPeng G3 & Audi A6L & Kia K5 \\
+& XPeng P5 & BYD D1 & Toyota C-HR & Kia K3 & Qin Pro \\
 \hline \\[-1.8ex]
-Roewe Ei5 & -2.062731 & 0.000001 & 0.002412 & 0.011392 & 0.000011 & 0.000003 & 0.000010 \\
-BMW X1 & 0.000001 & -6.011112 & 0.000023 & 0.000111 & 0.000847 & 0.005478 & 0.000000 \\
-NIO ES6 & 0.000071 & 0.000001 & -1.491673 & 0.011392 & 0.000011 & 0.000003 & 0.000010 \\
-NIO ES8 & 0.000071 & 0.000001 & 0.002412 & -1.291285 & 0.000011 & 0.000003 & 0.000010 \\
-XPeng G3 & 0.000001 & 0.016466 & 0.000021 & 0.000101 & -4.616104 & 0.008292 & 0.000000 \\
-Audi A6L & 0.000001 & 0.008999 & 0.000023 & 0.000107 & 0.005434 & -3.097672 & 0.000000 \\
-Kia K5 & 0.000071 & 0.000001 & 0.002412 & 0.011392 & 0.000011 & 0.000003 & -2.420821 \\
+XPeng P5 & -8.667018 & -0.469814 & -0.025894 & -0.159037 & -0.025542 \\
+BYD D1 & -0.143595 & -8.953423 & -0.025691 & -0.157973 & -0.025371 \\
+Toyota C-HR & -0.145145 & -0.471157 & -8.629897 & -0.159424 & -0.025604 \\
+Kia K3 & -0.169876 & -0.551436 & -0.030393 & -7.102133 & -0.022504 \\
+Qin Pro & -0.170232 & -0.552593 & -0.030457 & -0.140454 & -4.823988 \\
 \hline \\[-1.8ex]
 \end{tabular}
-\caption{Elasticity matrix WITH network effects (selected EV models)}
+\caption{Elasticity matrix WITH network effects - EV models with negative network effects}
 \end{table}
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=0.7\textwidth]{GraphsTables/elasticity_plot.png}
-    \caption{Heatmap of Elasticity Matrix for Selected Market}
-    \label{fig:elasticity_heatmap}
-\end{figure}
 
     \subsection{Supply}
 
-\begin{table}[!htbp]
-    \centering
-    \begin{tabular}{@{\extracolsep{5pt}}lc}
-        \\[-1.8ex]\hline
-        \hline \\[-1.8ex]
-        & \multicolumn{1}{c}{\textit{Dependent variable: log($N_{m}$)}} \\
-        \cline{2-2}
-        \\[-1.8ex] & (1) \\
-        \hline \\[-1.8ex]
-        fixed subsidy      & $-0.000$ \\
-                          & $(0.000)$ \\
-        operating subsidy  & $0.199$ \\
-                          & $(0.342)$ \\
-        EV base        & $0.596^{**}$ \\
-                          & $(0.240)$ \\
-        \hline \\[-1.8ex]
-        Observations         & 155 \\
-        $R^2$               & 0.973 \\
-        Residual Std. Error & 1.762 (df=120) \\
-        F Statistic         & 975317.181$^{***}$ (df=35; 120) \\
-        \hline
-        \hline \\[-1.8ex]
-        \textit{Note:} & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
-    \end{tabular}
+As for the supply estimates, 
+
+\begin{table}[!htbp] \centering
+\begin{tabular}{@{\extracolsep{5pt}}lc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{1}{c}{\textit{Dependent variable: log(charging\_stations\_stock)}} \\
+\cline{2-2}
+\\[-1.8ex] & (1) \\
+\hline \\[-1.8ex]
+ fixed subsidy & 0.00001$^{}$ \\
+& (0.00034) \\
+ operating subsidy & 0.27069$^{}$ \\
+& (0.46970) \\
+ EV base & 2.04827$^{**}$ \\
+& (0.97011) \\
+\hline \\[-1.8ex]
+ Province FE & Yes \\
+ Year FE & Yes \\
+ Observations & 155 \\
+ $R^2$ & 0.95920 \\
+ Residual Std. Error & 1.77141 (df=117) \\
+ F Statistic & 703901.59878$^{***}$ (df=38; 117) \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
 \end{table}
 
 \section{Policy Counterfactuals}

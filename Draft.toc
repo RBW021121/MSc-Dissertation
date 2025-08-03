@@ -13,6 +13,6 @@
 \contentsline {subsection}{\numberline {7.2}Identification: Supply}{9}{}%
 \contentsline {section}{\numberline {8}Results}{10}{}%
 \contentsline {subsection}{\numberline {8.1}Demand}{10}{}%
-\contentsline {subsection}{\numberline {8.2}Supply}{12}{}%
-\contentsline {section}{\numberline {9}Policy Counterfactuals}{12}{}%
-\contentsline {section}{\numberline {10}Conclusion}{12}{}%
+\contentsline {subsection}{\numberline {8.2}Supply}{11}{}%
+\contentsline {section}{\numberline {9}Policy Counterfactuals}{11}{}%
+\contentsline {section}{\numberline {10}Conclusion}{11}{}%
