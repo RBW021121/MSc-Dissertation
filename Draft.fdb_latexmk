@@ -1,7 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1754253886.07173 "c:/Users/Lenovo/Desktop/Dissertaion/Code/MSc-Dissertation/Draft.tex" "Draft.pdf" "Draft" 1754253887.42526 0
+["pdflatex"] 1754307694.72419 "c:/Users/Lenovo/Desktop/Dissertaion/Code/MSc-Dissertation/Draft.tex" "Draft.pdf" "Draft" 1754307696.01716 0
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1754142907 81068 299f700eb05b1217173e62b88b513bd0 ""
+  "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1719976519 11548 f8bd8cb555141121a51b10435c22ff24 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1693545039 23173837 274c356026fbffc0d4b8698ed7aad71d ""
+  "D:/Program Files (x86)/New folder/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "D:/Program Files (x86)/New folder/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "D:/Program Files (x86)/New folder/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "D:/Program Files (x86)/New folder/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -70,12 +72,12 @@
   "D:/Program Files (x86)/New folder/tex/latex/graphics/keyval.sty" 1665067579 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "D:/Program Files (x86)/New folder/tex/latex/graphics/trig.sty" 1665067579 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "D:/Program Files (x86)/New folder/tex/latex/l3backend/l3backend-pdftex.def" 1680182075 29768 5600b3a98028e2e01b60e7f98fbf4b9c ""
-  "Draft.aux" 1754253887 2872 1eea761ec9198b4eb2138d68f5682d2b "pdflatex"
-  "Draft.tex" 1754253859 36536 707f7085165d5930b08af0fc56de09eb ""
-  "Draft.toc" 1754253887 1162 d2f80e3787f47f843afc32b88741a0d9 "pdflatex"
-  "GraphsTables/total_ev_charging_trend.png" 1754068720 35313 4404db67d1ac08b93cb383ba2149bfe2 ""
+  "Draft.aux" 1754307695 2872 56b65b7c58aaab30dabc44926987595b "pdflatex"
+  "Draft.tex" 1754307693 41550 4ceb4803438debe3fd1721d48b6ba3f7 ""
+  "Draft.toc" 1754307695 1162 5ec3daf43d82b70440b7260d49a8ef9d "pdflatex"
+  "GraphsTables/total_ev_charging_trend.png" 1754288674 34694 fa763eb9c0efdbac8535e60264c38b92 ""
   "GraphsTables/total_shares_ev_ice_shanghai.png" 1754068714 38073 03acabed3e67b54c192e122177be0b97 ""
-  "c:/Users/Lenovo/Desktop/Dissertaion/Code/MSc-Dissertation/Draft.tex" 1754253859 36536 707f7085165d5930b08af0fc56de09eb ""
+  "c:/Users/Lenovo/Desktop/Dissertaion/Code/MSc-Dissertation/Draft.tex" 1754307693 41550 4ceb4803438debe3fd1721d48b6ba3f7 ""
   (generated)
   "Draft.aux"
   "Draft.log"
