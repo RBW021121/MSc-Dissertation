@@ -2,10 +2,11 @@
 
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[a4paper, margin=1.5in]{geometry}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{dsfont}
+\usepackage{setspace}
 
 
 \title{Dissertation on EV Adoption and Policy Incentives}
@@ -13,6 +14,7 @@
 \date{\today}
 
 \begin{document}
+\onehalfspacing
 \maketitle
 \section{Abstract}
 
@@ -42,16 +44,21 @@ Therefore, the question of how to efficiently incentivize EV adoption closely li
     \label{fig:total_shares_ev_ice_shanghai}
 \end{figure} 
 
-For the past two decades, China has been at the forefront of EV adoption, with a significant share of the global EV market. 
-The Chinese government has implemented a range of policies to promote EV adoption, including direct monetary incentives, 
-indirect policies favouring EV usage in transport, and the recent shift of focus onto charging infrastructure. 
+For the past two decades, China has been at the forefront of EV adoption, with a significant share of the global new EV sales of 60\% in 2023. 
+To achieve the annoued policy objective of hitting 60\% EV market share by 2030, Chinese government has implemented a range of policies to promote EV adoption, 
+including direct monetary incentives, indirect policies favouring EV usage in transport, and the recent shift of focus onto charging infrastructure. 
 The unique nature of a two-sided market between EVs and charging stations presents a special opportunity for policy design, 
 leveraging the presence of feedback effects caused by the indirect network externalities between the two sides. 
 With the strong incentives from the Chinese government, complemented with various local restrictions on the ICE vehicles, 
 the displacement of ICE vehicles by EVs has been rapid, as shown in Figure 1 taking Shanghai as an example. 
 Global successes with EV penetration have demonstrated the need for government intervention, but leaving the matter of efficiency underexplored. 
-Therefore, this paper aims to address a range of policy questions in relation to the promotion of both EV and charging station deployment, 
-through structurally modelling the interaction between EVs and charging facilities, and explore for efficient policy mix under indirect network effect.
+
+EV policies have been pivotal to the net-zero target of China, where a wide-range of policies have been entering, substituting and existing in a frequent basis, 
+allowing for many additional policy questions to be answered by evaluating the rich set of policy mix.
+In particular, the question on the effect of policy phase-out is rarely asked for this relatively young industry, 
+and this paper adds to that direction, by extending the question of optimal policy mix in Springel (2021) to exploring the compensatory effects of policy substitutions.
+Therefore, this paper aims to structurally modelling decisions on vehicle purchase and charging infrastructure provision, exploring the indirect network effects between EVs demand and charging network,
+in order to answer policy questions and identify efficient policy mix in incentivizing EV adoption.
 
 
 \section{Industrial Background and Policy}
@@ -66,18 +73,15 @@ In the meantime, local governments following central guidelines, began to initia
 Typical examples were travel restrictions that EVs were exempted from, parking previleges, and additional registration quota for EVs.
 However, the explosive rise of EV market share had a strong reliance on intense monetary incentives, as a result, subsidy frauds also came as a side effect. 
 As a result, the attention gradually shifted from direct to indirect policies, among which infrastructure supply was a key target due to the unique two-sided market feature of EV. 
-From 2017, direct purchase subsidies started exiting, substituted by construction cost rebate and operational subsidies for charging infrastructures. 
+From 2017, direct purchase subsidies started phasing out, substituted by construction cost rebate and operational subsidies for charging infrastructures. 
 In addition, the 'Dual Credit Policy' published in 2017 effectively ensured a minimum share for EV sales from the supply side, also resulted in a large scale entry of traditional ICE automobile players into EV production. 
 In consequence, competition intensified accompanied with a rapid increase in the number of models available.
 Following expansion of the technology frontier which reduced product differentiation in low-end models, aggressive pricing behaviours were widely adopted in response to the increase in price sensitivity.
 
-In the period of 2019-2023, with the full exit of uniform purchase subsidies, attribute-based subsidies and tax exemptions were the only major central incentives remaining. 
+In the period of 2019-2023, with the full ramp-down of uniform purchase subsidies, attribute-based subsidies and tax exemptions were the only major central incentives remaining. 
 Range-based subsidies and infrastructure deployment requirements were introduced to lead the market towards solving range-anxiety associated with EVs. 
-Throughout the period, range-based subsidies continued to exit from low to high range categories following previously determined schedules, creating exogenous time variations for policy evaluations. 
+Throughout the period, range-based subsidies continued to phase-out from low to high range categories following previously determined schedules, creating exogenous time variations for policy evaluations. 
 Table 1 shows the range-based subsidy schedule for BEVs and PHEVs.
-
-which is consistent with the hypothesized purchase decision process, 
-that consumers in China chooses groups primarily based on their driving needs in terms of frequency, destinations and distance. 
 
 \begin{table}[h]
 \centering
@@ -96,7 +100,9 @@ Range & $R \geq 50$ & $300 \geq R \geq 250$ & $400 \geq R \geq 300$ & $R \geq 40
 
 
     \subsection{Charging station market}
-
+In comparison to the EV market, the charging market is much more concentrated with top players dominating market shares.
+In 2023, out of the total 2.7 million public charging piles, the top 5 charging station providers occupied over 62\% of the market share and 81\% of total charging power output.
+Following the phasing-out in EV purchase subsidies, the focus of incentives has shifted towards charging infrastructure, targeting EV-pile ratio.
 
 \begin{figure}[htbp]
     \centering
@@ -107,29 +113,50 @@ Range & $R \geq 50$ & $300 \geq R \geq 250$ & $400 \geq R \geq 300$ & $R \geq 40
 
 
 \section{literature Review}
-This study primarily relates to the following three strands of literature. 
-       
-        Differentiated Market Demand estimation \\
-First, this study closely relates to the mature literature on differentiated product demand estimation, in which the automobile market has been specifically focused on with a variety of directions for extensions. Following the foundational work of MacFadden (1977), the strucutral approach of logit discrete choice has been widely adopted for the demand-supply style problems. 
-To allow for a more realistic assumtions and promptly deal with dimensionality problems, variants in the model such as the nested logit model, the principles-of-differentiation general extreme-value (PD-GEV) model in Bresnahan et al. (1997), and the adopted approach in this paper of random-coefficient discrete choice model in Berry et al. (1995). 
-Following the seminal works of Bresnahan (1987), Berry et al. (1995), and Petrin (2002), I apply the standard structural modelling techniques to the automobile industry, in order to recover flexible substitution patterns and facilitate counterfactual policy evaluations. Although automobile demand estimation has been thoroughly discussed in the past three decades, 
-the focus on EV is relatively fresh within the literature. Li et al. (2017) began with a stylized model to evaluate the effectiveness of EV and infrastructure incentives in the U.S. market. They found that charging station subsidies of equal sizes are twice as effective for EV adoption that purchase incentives. Springel (2021) aimed at similar question in the Norwesian market,
-but implemented a structural demand-supply specification and estimated a random coefficient model under the influence of indirect network externality of charging stations, which then faciliates the testing of counterfactual policy mixes. Li (2023) considered again the U.S. automobile market and EV adoption using a BLP-style model, 
-but introduced incompatible charging standards to the supply side and focused primarily on the impact of a uniform-standard policy for EV penetration. Remmy (2023) expanded the strucutral model by endogenizing supply-side decision on range of EVs and explored firms', in addition to consumers', responses to incentive schemes in Germany. 
-Finally, Heid et al. (2024) enriched the modelling further by bringing in electricity market to form a joint-equilibrium model, endogenizing charging timing on the demand side, and further discussed the issue of pass-through in incentives. As for studies on the Chinese automobile industry, Jia et al. (2023) studied the impact of attribute-based incentives to EV adoption building on a structural demand model. 
-They found that But they focus primarily on the strand of endogenous product attributes and abstracted away from the supply-side decision on charging station entry. To the best of my knowledge, there is yet a systematic study of the Chinese EV market that incorporates indirect network effects.
-        
-        Indirect Network Effect \\
-The interaction between EV and charging station presents a typical example of a two-sided market, in which the presence of indirect network effect would generally alter policy implications significantly. 
-The literature on indirect network effect traces back to the earlier theoretical works such as Katz and Shapiro (1985) and Farrel and Saloner (1985). 
-This study specifically adds to the strand of automobile demand modelling by testing the result of indirect network effect in the Chinese market.
+This study primarily relates to the following three strands of literature. Firstly, this study closely relates to the mature literature on differentiated product demand estimation, 
+in which the automobile market has been specifically focused on with a variety of directions for extensions. 
+Following the foundational work of MacFadden (1977), the strucutral approach of logit discrete choice has been widely adopted for the demand-supply style problems. 
+To allow for more realistic substitution patterns and promptly deal with dimensionality problems, 
+variants in the model such as the nested logit model, the principles-of-differentiation general extreme-value (PD-GEV) model in Bresnahan et al. (1997), 
+and the adopted approach in this paper of random-coefficient discrete choice model in Berry et al. (1995). 
+Following the seminal works of Bresnahan (1987), Berry et al. (1995), and Petrin (2002), I apply the standard structural modelling techniques to the automobile industry, 
+in order to recover flexible substitution patterns and facilitate counterfactual policy evaluations. Although automobile demand estimation has been thoroughly discussed in the past three decades, 
+the focus on EV is relatively fresh within the literature. Li et al. (2017) began with a stylized model to evaluate the effectiveness of EV and infrastructure incentives in the U.S. market. 
+They found that charging station subsidies of equal sizes are twice as effective for EV adoption that purchase incentives. 
+Springel (2021) asked a similar question in the Norwesian market, but implemented a structural demand-supply equilibrium setup and estimated a random coefficient model under the influence of indirect network externality of charging stations, 
+which then faciliates a range of policy counterfactuals. Li (2023) considered again the U.S. automobile market and EV adoption using a BLP-style model, 
+but introduced incompatible charging standards to the supply side and focused primarily on the impact of a uniform-standard policy for EV penetration. 
+Remmy (2024) expanded the strucutral model by endogenizing supply-side decision on range of EVs and explored firms', in addition to consumers', responses to incentive schemes in Germany. 
+Finally, Heid et al. (2024) enriched the modelling further by bringing in electricity market to form a joint-equilibrium model, endogenizing charging timing on the demand side, and further discussed the issue of pass-through in incentives. 
+As for studies on the Chinese automobile industry, Jia et al. (2023) studied the impact of attribute-based incentives to EV adoption building on a structural demand model. 
+They found that But they focus primarily on the strand of endogenous product attributes and abstracted away from the supply-side decision on charging station entry. 
+To the best of my knowledge, there is yet a comprehensive study of the Chinese EV market that incorporates indirect network effects.\\
+
+Secondly, the interaction between EV and charging station presents a typical example of a two-sided market, in which the presence of indirect network effect would generally alter policy implications significantly. 
+The literature on indirect network effect traces back to the earlier theoretical works such as Katz and Shapiro (1985), and Farrel and Saloner (1985),
+which was then extended to a formal two-sided 'platform' framework by studies such as Rochet and Tirole (2003), Wright (2004), and Armstrong (2006). 
+As shown by Wright (2004), in applying tools to evaluate competition and industrial structures, neglecting the two-sidedness of a market can lead to serious mistakes in results.
+The theories predict a positive feedback loop that increased volume of one side would increase the value of the other side, which in reverse further benefits the former side.
+In terms of the EV market, the network effects is generated from the interaction between EVs and charging stations, 
+where a larger stock of EVs would increase the profitability for charging providers and give rise to expanding charging network, which in turn increases the convenience of owning an EV.
+However, the network effects adds complementarity to the traditional force of competition that makes EVs substitutes, leaving the net effect ambiguous.
+More recent studies such as Clements and Ohashi (2005) in video games market, Filistrucchi et al. (2012) in newspaper market, 
+and Reshef (2023) in online takeout platform, have identified material conclusions of how positive indirect network alters competition.
+As for the EV literature, following Li et al. (2017) and Springel (2021), recent studies have all taken indirect network effect into account when considering EV penetration.
+This study specifically considers how would the presence of indirect network effect alters EV policy effectiveness in the Chinese market. \\
+
+Lastly, this paper contributes to the understanding of policy impacts on EV adoption and environmental implications, which is made different by the consideration of indirect network effects. 
+Subsidies in promoting diffusion of clean-energy technologies have shown to be an effective environmental policy instrument (Acemoglu et al., 2016).
+The growing literature of EV adoption and environmental policy has studied cases of various developed economies, 
+such as in Norway (Springel, 2021; van Dijk et al., 2022; Koch et al., 2022), the US (Holland et al., 2016; Li et al., 2017; Li, 2023), Germany (Heid et al., 2024; Remmy, 2024;), and in China (Guo and Xiao, 2023; Barwick et al., 2024; Zhu et al., 2024).
+One strand of literature adopts comprehensive econometric models to recover key parameters, then run policy counterfactual analysis in order to evaluate a variety of policy instruments.
+Studies have examined a variety of approaches of policy interventions in promoting EV penetration, including demand-side targets like direct purchase subsidies (Guo and Xiao, 2023) 
+and attribute-based subsidies (Jia et al., 2023; Barwick et al., 2024), also in supply-side targets like charging infrastructure subsidies (Li et al., 2017; Springel, 2021; Zhu et al., 2024) and charging standards (Li, 2023).
+Additionally, a subset of literature approaches EV penetration from a technology diffusion point of view, focusing on multiple equilibriums and critical mass for EV and charging infrastructures to self-sustain (Zhou and Li, 2018; Koch et al., 2021; van Dijk et al., 2022).
+In terms of measuring EV policy implications, studies such as Holland et al. (2016), Guo and Xiao (2023), Heid et al. (2024), and Barwick et al. (2024),
+have documented heterogeneous conclusions on welfare effects, some supports current incentive structures while others suggest for a ramp-down of subsidies. 
 
 
-        EV Adoption and Environmental Policy \\
-Lastly, this paper contributes to the understanding of policy impacts on EV adoption. The Chinese government has prompted EV penetration of the largest in scale and fastest in speed through strong policy supports.
-Although the growing literature of EV adoption and environmental policy has studied cases of various developed economies such as Norway (Springel 2021), the US (Li et al. 2017) (Li 2023), and Germany (Remmy 2024), there is yet to be a systematic study of the evloving Chinese EV market to my knowledge. 
-EV policies have been pivotal to the net-zero target of China, where a wide-range of policies have been entering, substituting and existing in a frequent basis, allowing for many additional policy questions to be answered by evaluating the rich set of policy mix. 
-In particular, the question on policy exit effect is rarely asked for this relatively yound industry, and this paper adds to that direction, by extending the question of optimal policy mix in Springel (2021) to exploring the compensatory effects of policy substitutions.
 
 
 \section{Data}
@@ -424,7 +451,7 @@ Qin Pro & 0.000048 & 0.000156 & 0.000009 & 0.018988 & -4.798381 \\
 Table 2 shows the elasticities without accounting for the feedback effect from the charging network. 
 The own price elasticities are all elastic with magnitude greater than 1, 
 although the size of effects are larger than that documented in the literature on vehicle demand (Li et al., 2017), (Springel, 2021), (Remmy, 2024), (Barwick et al., 2024),
-which is likely due to the fact that the Chinese EV market has expereinced a rapid growth and diversification phase. 
+which is likely due to the fact that the Chinese EV market has experienced a rapid growth and diversification phase. 
 Because of the hard political quota and strong policy support, the level of competition in China is a ahead of actual EV demands.
 Due to large amount of alternatives in the market, individual shares are generally very small which leads to larger elasticities.
 The cross-price elasticities are all positive as expected, that EVs in the absence of network effects act as simple substitutes.
@@ -520,18 +547,19 @@ The latter two exhibits non-uniform incentives to EV models, which may potential
 Finally, the question of optimal policy mix requires understanding of the interaction between price and charging subsidies.
 The marginal effect of the each type of subsidies is evaluated while holding the other types of subsidies constant at different levels.
 
-\begin{tabular}{lllrll}
+\begin{center}
+\begin{tabular}{lllllll}
 \hline
- Scenario           & $\Delta$ EV    & $\Delta$ Piles   &   Gov Spending (¥) & $\Delta$ EV per M¥   & $\Delta$ Piles per M¥   \\
+ Metric                & 0      & 1             & 2              & 3              & 4              & 5              \\
 \hline
- No Subsidies       & 0 (0\%)         & 0 (0\%)           &                  0 & -                    & -                       \\
- Demand Only        & 1502442 (3.0\%) & 49538 (2.1\%)     &       556814474623 & 2.70                 & 0.09                    \\
- Station Only       & 26329 (0.1\%)   & 20086 (0.8\%)     &          131276814 & 200.56               & 153.00                  \\
- Purchase Incentive & 1086160 (2.2\%) & 43635 (1.8\%)     &       106767394151 & 10.17                & 0.41                    \\
- Tax Reduction      & 1057867 (2.1\%) & 44429 (1.8\%)     &       490763192571 & 2.16                 & 0.09                    \\
- Purchase Subsidy   & 1167354 (2.3\%) & 43403 (1.8\%)     &       567738231524 & 2.06                 & 0.08                    \\
+ \ $\Delta$ EV           & 0 (0\%) & 934368 (1.9\%) & 309432 (0.6\%)  & 1176636 (2.4\%) & 1065046 (2.1\%) & 2356387 (4.7\%) \\
+ \ $\Delta$ Piles        & 0 (0\%) & 36566 (1.5\%)  & 264275 (10.9\%) & 43692 (1.8\%)   & 44663 (1.8\%)   & 114279 (4.7\%)  \\
+ Gov Spending (¥)      & 0      & 90642080276   & 258733108812   & 110150772525   & 111527210925   & 284255263283   \\
+ \ $\Delta$ EV per M¥    & -      & 10.31         & 1.20           & 10.68          & 9.55           & 8.29           \\
+ \ $\Delta$ Piles per M¥ & -      & 0.40          & 1.02           & 0.40           & 0.40           & 0.40           \\
 \hline
 \end{tabular}
+\end{center}
 
 
 \section{Conclusion}

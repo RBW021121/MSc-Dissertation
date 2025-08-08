@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  4 AUG 2025 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  8 AUG 2025 17:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -153,6 +153,8 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisrulewidth=\dimen172
 ) (D:\Program Files (x86)\New folder\tex/latex/doublestroke\dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+) (D:\Program Files (x86)\New folder\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
 ) (D:\Program Files (x86)\New folder\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count278
@@ -160,20 +162,20 @@ File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 ) (Draft.aux)
 \openout1 = `Draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -183,15 +185,15 @@ LaTeX Font Info:    ... okay on input line 15.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* h-part:(L,W,R)=(108.405pt, 380.69788pt, 108.405pt)
+* v-part:(T,H,B)=(108.405pt, 628.23685pt, 108.405pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=380.69788pt
+* \textheight=628.23685pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-0.86499pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -228,11 +230,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (D:\Program Files (x86)\New folder\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
  (D:\Program Files (x86)\New folder\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
  (D:\Program Files (x86)\New folder\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -245,51 +247,66 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <GraphsTables/total_shares_ev_ice_shanghai.png, id=13, 570.2103pt x 354.123pt>
 File: GraphsTables/total_shares_ev_ice_shanghai.png Graphic file (type png)
 <use GraphsTables/total_shares_ev_ice_shanghai.png>
-Package pdftex.def Info: GraphsTables/total_shares_ev_ice_shanghai.png  used on input line 40.
-(pdftex.def)             Requested size: 317.07614pt x 196.91882pt.
- [3 <./GraphsTables/total_shares_ev_ice_shanghai.png>]
-<GraphsTables/total_ev_charging_trend.png, id=19, 570.2103pt x 354.123pt>
+Package pdftex.def Info: GraphsTables/total_shares_ev_ice_shanghai.png  used on input line 42.
+(pdftex.def)             Requested size: 266.48735pt x 165.50302pt.
+ [3 <./GraphsTables/total_shares_ev_ice_shanghai.png>] [4]
+<GraphsTables/total_ev_charging_trend.png, id=22, 570.2103pt x 354.123pt>
 File: GraphsTables/total_ev_charging_trend.png Graphic file (type png)
 <use GraphsTables/total_ev_charging_trend.png>
-Package pdftex.def Info: GraphsTables/total_ev_charging_trend.png  used on input line 103.
-(pdftex.def)             Requested size: 317.07614pt x 196.91882pt.
- [4] [5 <./GraphsTables/total_ev_charging_trend.png>] [6] [7] [8]
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 324.
+Package pdftex.def Info: GraphsTables/total_ev_charging_trend.png  used on input line 109.
+(pdftex.def)             Requested size: 266.48735pt x 165.50302pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--134
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 135--147
+
+ []
+
+[6 <./GraphsTables/total_ev_charging_trend.png>] [7] [8] [9] [10]
+Overfull \hbox (62.15974pt too wide) detected at line 280
+[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^Z []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 ^^L[]EV[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ^^L[] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 ^^L[]\OT1/cmr/m/n/10 ([](\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^B \OML/cmm/m/it/10 EV[]\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 x[]^^L[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ^^X[]
+ []
+
+[11] [12]
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 351.
  (D:\Program Files (x86)\New folder\tex/latex/doublestroke\udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-) [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 513--515
+) [13] [14] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 540--542
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--517
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--519
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
 
  []
 
-
-Overfull \hbox (54.15251pt too wide) in paragraph at lines 523--535
-[][] 
+[17]
+Overfull \hbox (143.92657pt too wide) in paragraph at lines 551--562
+ [] 
  []
 
-[12] (Draft.aux) ) 
+[18] (Draft.aux) ) 
 Here is how much of TeX's memory you used:
- 3275 strings out of 476331
- 50093 string characters out of 5792888
- 1869660 words of memory out of 5000000
- 23675 multiletter control sequences out of 15000+600000
+ 3324 strings out of 476331
+ 51179 string characters out of 5792888
+ 1864660 words of memory out of 5000000
+ 23720 multiletter control sequences out of 15000+600000
  521817 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,15n,62p,482b,288s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,15n,62p,400b,288s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Lenovo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/doublestroke/dsrom10.pfb>
-Output written on Draft.pdf (12 pages, 306733 bytes).
+Output written on Draft.pdf (18 pages, 313794 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 145 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
