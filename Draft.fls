@@ -13,10 +13,11 @@ INPUT D:\Program Files (x86)\New folder\tex\latex\base\article.cls
 INPUT D:\Program Files (x86)\New folder\tex\latex\base\article.cls
 INPUT D:\Program Files (x86)\New folder\tex\latex\base\article.cls
 INPUT D:\Program Files (x86)\New folder\tex\latex\base\article.cls
-INPUT D:\Program Files (x86)\New folder\tex\latex\base\size10.clo
-INPUT D:\Program Files (x86)\New folder\tex\latex\base\size10.clo
-INPUT D:\Program Files (x86)\New folder\tex\latex\base\size10.clo
-INPUT D:\Program Files (x86)\New folder\tex\latex\base\size10.clo
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\size12.clo
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\size12.clo
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\size12.clo
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\size12.clo
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmr12.tfm
 INPUT D:\Program Files (x86)\New folder\tex\latex\amsmath\amsmath.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\amsmath\amsmath.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\amsmath\amsmath.sty
@@ -221,6 +222,35 @@ INPUT D:\Program Files (x86)\New folder\tex\latex\setspace\setspace.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\setspace\setspace.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\setspace\setspace.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\setspace\setspace.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\fontenc.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\fontenc.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\fontenc.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\fontenc.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\fontenc.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\fontenc.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\fontenc.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\fontenc.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\fontenc.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\fontenc.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\base\fontenc.sty
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\jknappen\ec\ecrm1200.tfm
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\graphics\keyval.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\t1phv.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\t1phv.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\t1phv.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\t1phv.fd
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT D:\Program Files (x86)\New folder\tex\latex\l3backend\l3backend-pdftex.def
 INPUT D:\Program Files (x86)\New folder\tex\latex\l3backend\l3backend-pdftex.def
 INPUT D:\Program Files (x86)\New folder\tex\latex\l3backend\l3backend-pdftex.def
@@ -251,12 +281,129 @@ INPUT D:\Program Files (x86)\New folder\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\grfext\grfext.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\grfext\grfext.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\grfext\grfext.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\grfext\grfext.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\grfext\grfext.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\grfext\grfext.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\grfext\grfext.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\grfext\grfext.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\grfext\grfext.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\grfext\grfext.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\grfext\grfext.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\iftex\iftex.sty
+INPUT D:\Program Files (x86)\New folder\tex\generic\ltxcmds\ltxcmds.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT D:\Program Files (x86)\New folder\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT D:\Program Files (x86)\New folder\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT D:\Program Files (x86)\New folder\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmr17.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsa.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsa.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsa.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsa.fd
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsb.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsb.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsb.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsb.fd
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvb8t.tfm
+OUTPUT Draft.pdf
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT D:\Program Files (x86)\New folder\fonts\enc\dvips\base\8r.enc
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT .\Draft.toc
+INPUT Draft.toc
+INPUT Draft.toc
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmr8.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmr6.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmmi12.tfm
@@ -268,37 +415,18 @@ INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmsy6.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmex10.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsa.fd
-INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsa.fd
-INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsa.fd
-INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsa.fd
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsb.fd
-INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsb.fd
-INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsb.fd
-INPUT D:\Program Files (x86)\New folder\tex\latex\amsfonts\umsb.fd
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmr12.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmbx12.tfm
-OUTPUT Draft.pdf
-INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\Draft.toc
-INPUT Draft.toc
-INPUT Draft.toc
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmbx10.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 OUTPUT Draft.toc
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT .\GraphsTables\total_shares_ev_ice_shanghai.png
 INPUT .\GraphsTables\total_shares_ev_ice_shanghai.png
 INPUT GraphsTables\total_shares_ev_ice_shanghai.png
@@ -306,7 +434,6 @@ INPUT .\GraphsTables\total_shares_ev_ice_shanghai.png
 INPUT .\GraphsTables\total_shares_ev_ice_shanghai.png
 INPUT .\GraphsTables\total_shares_ev_ice_shanghai.png
 INPUT .\GraphsTables\total_shares_ev_ice_shanghai.png
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\GraphsTables\total_ev_charging_trend.png
 INPUT .\GraphsTables\total_ev_charging_trend.png
 INPUT GraphsTables\total_ev_charging_trend.png
@@ -314,47 +441,84 @@ INPUT .\GraphsTables\total_ev_charging_trend.png
 INPUT .\GraphsTables\total_ev_charging_trend.png
 INPUT .\GraphsTables\total_ev_charging_trend.png
 INPUT .\GraphsTables\total_ev_charging_trend.png
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmti10.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmti7.tfm
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\ts1phv.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\ts1phv.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\ts1phv.fd
+INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\ts1phv.fd
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8c.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8c.vf
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT D:\Program Files (x86)\New folder\tex\latex\doublestroke\udsrom.fd
 INPUT D:\Program Files (x86)\New folder\tex\latex\doublestroke\udsrom.fd
 INPUT D:\Program Files (x86)\New folder\tex\latex\doublestroke\udsrom.fd
 INPUT D:\Program Files (x86)\New folder\tex\latex\doublestroke\udsrom.fd
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom12.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom8.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom8.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom10.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom8.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom8.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\cm\cmti7.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8c.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8c.vf
+INPUT .\GraphsTables\policy_counterfactuals_comparison.png
+INPUT .\GraphsTables\policy_counterfactuals_comparison.png
+INPUT GraphsTables\policy_counterfactuals_comparison.png
+INPUT .\GraphsTables\policy_counterfactuals_comparison.png
+INPUT .\GraphsTables\policy_counterfactuals_comparison.png
+INPUT .\GraphsTables\policy_counterfactuals_comparison.png
+INPUT .\GraphsTables\policy_counterfactuals_comparison.png
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT Draft.aux
-INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi5.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi5.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmsy7.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmti7.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmti7.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\doublestroke\dsrom10.pfb
-INPUT D:\Program Files (x86)\New folder\fonts\type1\public\doublestroke\dsrom10.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\doublestroke\dsrom12.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\public\doublestroke\dsrom12.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\urw\helvetic\uhvb8a.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\urw\helvetic\uhvb8a.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\urw\helvetic\uhvr8a.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\urw\helvetic\uhvr8a.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\urw\helvetic\uhvro8a.pfb
+INPUT D:\Program Files (x86)\New folder\fonts\type1\urw\helvetic\uhvro8a.pfb
