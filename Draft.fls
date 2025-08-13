@@ -246,6 +246,17 @@ INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\helvet.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\graphics\keyval.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\Program Files (x86)\New folder\tex\latex\natbib\natbib.sty
 INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\t1phv.fd
 INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\t1phv.fd
 INPUT D:\Program Files (x86)\New folder\tex\latex\psnfss\t1phv.fd
@@ -491,6 +502,10 @@ INPUT .\GraphsTables\policy_counterfactuals_comparison.png
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT .\Draft.bbl
+INPUT Draft.bbl
+INPUT .\Draft.bbl
+INPUT Draft.bbl
 INPUT Draft.aux
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT D:\Program Files (x86)\New folder\fonts\type1\public\amsfonts\cm\cmex10.pfb

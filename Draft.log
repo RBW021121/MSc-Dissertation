@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  11 AUG 2025 23:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  13 AUG 2025 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -159,31 +159,37 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (D:\Program Files (x86)\New folder\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (D:\Program Files (x86)\New folder\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip53
+\bibsep=\skip54
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count278
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 20.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 25.
  (D:\Program Files (x86)\New folder\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (D:\Program Files (x86)\New folder\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count278
+\l__color_backend_stack_int=\count279
 \l__pdf_internal_box=\box53
 ) (Draft.aux)
 \openout1 = `Draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -221,16 +227,16 @@ LaTeX Font Info:    ... okay on input line 20.
 
 (D:\Program Files (x86)\New folder\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count279
+\scratchcounter=\count280
 \scratchdimen=\dimen173
 \scratchbox=\box54
-\nofMPsegments=\count280
-\nofMParguments=\count281
+\nofMPsegments=\count281
+\nofMParguments=\count282
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count282
+\MPscratchCnt=\count283
 \MPscratchDim=\dimen174
-\MPnumerator=\count283
-\makeMPintoPDFobject=\count284
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
 \everyMPtoPDFconversion=\toks24
 ) (D:\Program Files (x86)\New folder\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -259,11 +265,11 @@ Package grfext Info: Graphics extension search list:
  (D:\Program Files (x86)\New folder\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
  (D:\Program Files (x86)\New folder\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
  (D:\Program Files (x86)\New folder\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -273,7 +279,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout3 = `Draft.toc'.
 
  [2] [3]
-Overfull \hbox (3.11694pt too wide) in paragraph at lines 66--75
+Overfull \hbox (3.11694pt too wide) in paragraph at lines 85--94
 \T1/phv/m/n/12 model of ve-hi-cle de-mand based on ran-dom util-ity max-i-miza-tion. I adopted
  []
 
@@ -281,84 +287,123 @@ Overfull \hbox (3.11694pt too wide) in paragraph at lines 66--75
 <GraphsTables/total_shares_ev_ice_shanghai.png, id=22, 570.2103pt x 354.123pt>
 File: GraphsTables/total_shares_ev_ice_shanghai.png Graphic file (type png)
 <use GraphsTables/total_shares_ev_ice_shanghai.png>
-Package pdftex.def Info: GraphsTables/total_shares_ev_ice_shanghai.png  used on input line 116.
+Package pdftex.def Info: GraphsTables/total_shares_ev_ice_shanghai.png  used on input line 137.
 (pdftex.def)             Requested size: 266.48735pt x 165.50302pt.
- [7 <./GraphsTables/total_shares_ev_ice_shanghai.png>]
-<GraphsTables/total_ev_charging_trend.png, id=29, 570.2103pt x 354.123pt>
+ [7 <./GraphsTables/total_shares_ev_ice_shanghai.png>] [8]
+<GraphsTables/total_ev_charging_trend.png, id=35, 570.2103pt x 354.123pt>
 File: GraphsTables/total_ev_charging_trend.png Graphic file (type png)
 <use GraphsTables/total_ev_charging_trend.png>
-Package pdftex.def Info: GraphsTables/total_ev_charging_trend.png  used on input line 159.
+Package pdftex.def Info: GraphsTables/total_ev_charging_trend.png  used on input line 182.
 (pdftex.def)             Requested size: 266.48735pt x 165.50302pt.
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 166--184
+
+Overfull \hbox (4.1134pt too wide) in paragraph at lines 198--215
+\T1/phv/m/n/12 the adopted ap-proach in this pa-per of nested logit model ((Cardell, 1997)).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--215
 
  []
 
-[9 <./GraphsTables/total_ev_charging_trend.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 185--197
+[9 <./GraphsTables/total_ev_charging_trend.png>] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 216--229
 
  []
 
-[10] [11] [12]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 268.
+[11] [12] [13]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 308.
  (D:\Program Files (x86)\New folder\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
+) [14]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 275.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 317.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 275.
- [13]
-Overfull \hbox (10.1551pt too wide) detected at line 280
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 317.
+ [15]
+Overfull \hbox (10.1551pt too wide) detected at line 322
 []\OML/cmm/m/it/12 u[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^L[]EV[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^L[] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 ^^L[]\OT1/cmr/m/n/12 ([](\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^B \OML/cmm/m/it/12 EV[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 p[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 x[]^^L[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^X[] \OT1/cmr/m/n/12 + []
  []
 
-[14] [15] [16]
-Overfull \hbox (123.28673pt too wide) detected at line 357
-[][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 ^^Z []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 ^^L[]EV[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^L[] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 ^^L[]\OT1/cmr/m/n/12 ([](\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^B \OML/cmm/m/it/12 EV[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 p[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 x[]^^L[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^X[]
+[16] [17]
+Overfull \hbox (45.997pt too wide) detected at line 402
+[][][]
  []
 
-
-Overfull \hbox (7.64236pt too wide) in paragraph at lines 365--372
-\T1/phv/m/n/12 My spec-i-fi-ca-tion closely fol-lows that of Springel (2021) and Remmy (2023).
- []
-
-[17] [18]
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 429.
+[18] [19] [20]
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 477.
  (D:\Program Files (x86)\New folder\tex/latex/doublestroke\udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-) [19] [20]
+) [21]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 498.
- [21] [22]
-Overfull \hbox (30.12439pt too wide) in paragraph at lines 516--529
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 546.
+ [22] [23]
+Overfull \hbox (30.12439pt too wide) in paragraph at lines 564--577
  [][] 
  []
 
 
-Overfull \hbox (30.12439pt too wide) in paragraph at lines 535--548
+Overfull \hbox (30.12439pt too wide) in paragraph at lines 583--596
  [][] 
  []
 
-[23] [24] [25] [26]
-<GraphsTables/policy_counterfactuals_comparison.png, id=104, 1075.1367pt x 424.9476pt>
+[24] [25] [26] [27]
+Overfull \hbox (4.16153pt too wide) in paragraph at lines 719--723
+\T1/phv/m/n/12 pears the least ef-fi-cient over-all. Springel (2021) showed the non-neutrality
+ []
+
+<GraphsTables/policy_counterfactuals_comparison.png, id=107, 1075.1367pt x 424.9476pt>
 File: GraphsTables/policy_counterfactuals_comparison.png Graphic file (type png)
 <use GraphsTables/policy_counterfactuals_comparison.png>
-Package pdftex.def Info: GraphsTables/policy_counterfactuals_comparison.png  used on input line 678.
+Package pdftex.def Info: GraphsTables/policy_counterfactuals_comparison.png  used on input line 729.
 (pdftex.def)             Requested size: 380.69788pt x 150.47163pt.
- [27 <./GraphsTables/policy_counterfactuals_comparison.png>] [28] [29] [30] (Draft.aux) ) 
+[28] [29 <./GraphsTables/policy_counterfactuals_comparison.png>] [30] [31] (Draft.bbl
+Underfull \hbox (badness 2556) in paragraph at lines 57--63
+[]\T1/phv/m/n/12 Conlon, C. and Gort-maker, J. (2020).  Best prac-tices for dif-
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 57--63
+\T1/phv/m/n/12 fer-en-ti-ated prod-ucts de-mand es-ti-ma-tion with Py-BLP.  \T1/phv/m/sl/12 The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--63
+\T1/phv/m/sl/12 RAND Jour-nal of Eco-nomics\T1/phv/m/n/12 , 51(4):1108--1161.  _eprint:
+ []
+
+[32] [33]
+Underfull \hbox (badness 8151) in paragraph at lines 160--166
+[]\T1/phv/m/n/12 Nevo, A. (2000).  A Prac-ti-tioner's Guide to Es-ti-ma-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--166
+\T1/phv/m/n/12 Random-Coefficients Logit Mod-els of De-mand.  \T1/phv/m/sl/12 Jour-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--166
+\T1/phv/m/sl/12 nal of Eco-nomics & Man-age-ment Strat-egy\T1/phv/m/n/12 , 9(4):513--548.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--166
+\T1/phv/m/n/12 _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1430-
+ []
+
+[34]) [35] (Draft.aux) ) 
 Here is how much of TeX's memory you used:
- 4222 strings out of 476331
- 66676 string characters out of 5792888
- 1863660 words of memory out of 5000000
- 24562 multiletter control sequences out of 15000+600000
+ 4687 strings out of 476331
+ 74471 string characters out of 5792888
+ 1865660 words of memory out of 5000000
+ 25020 multiletter control sequences out of 15000+600000
  563145 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,67p,388b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 62i,15n,67p,429b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/doublestroke/dsrom12.pfb><D:/Program Files (x86)/New folder/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files (x86)/New folder/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Program Files (x86)/New folder/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Draft.pdf (30 pages, 605094 bytes).
+Output written on Draft.pdf (35 pages, 622978 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
+ 197 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
