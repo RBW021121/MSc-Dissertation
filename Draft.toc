@@ -3,16 +3,16 @@
 \contentsline {section}{\numberline {3}Industrial Background and Policy}{6}{}%
 \contentsline {subsection}{\numberline {3.1}EV market}{6}{}%
 \contentsline {subsection}{\numberline {3.2}EVSE market}{8}{}%
-\contentsline {section}{\numberline {4}literature Review}{10}{}%
+\contentsline {section}{\numberline {4}Literature Review}{10}{}%
 \contentsline {section}{\numberline {5}Data}{13}{}%
-\contentsline {section}{\numberline {6}Modelling}{15}{}%
-\contentsline {subsection}{\numberline {6.1}Demand: Vehicle Choice}{15}{}%
-\contentsline {subsection}{\numberline {6.2}Supply: Station Entry}{18}{}%
-\contentsline {section}{\numberline {7}Empirical Strategy}{20}{}%
-\contentsline {subsection}{\numberline {7.1}Identification: Demand}{20}{}%
+\contentsline {section}{\numberline {6}Modelling}{16}{}%
+\contentsline {subsection}{\numberline {6.1}Demand: Vehicle Choice}{16}{}%
+\contentsline {subsection}{\numberline {6.2}Supply: Station Entry}{19}{}%
+\contentsline {section}{\numberline {7}Empirical Strategy}{21}{}%
+\contentsline {subsection}{\numberline {7.1}Identification: Demand}{21}{}%
 \contentsline {subsection}{\numberline {7.2}Identification: Supply}{22}{}%
-\contentsline {section}{\numberline {8}Results}{22}{}%
-\contentsline {subsection}{\numberline {8.1}Demand}{22}{}%
-\contentsline {subsection}{\numberline {8.2}Supply}{26}{}%
-\contentsline {section}{\numberline {9}Policy Counterfactuals}{26}{}%
-\contentsline {section}{\numberline {10}Conclusion}{30}{}%
+\contentsline {section}{\numberline {8}Results}{23}{}%
+\contentsline {subsection}{\numberline {8.1}Demand}{23}{}%
+\contentsline {subsection}{\numberline {8.2}Supply}{27}{}%
+\contentsline {section}{\numberline {9}Policy Counterfactuals}{28}{}%
+\contentsline {section}{\numberline {10}Conclusion}{31}{}%

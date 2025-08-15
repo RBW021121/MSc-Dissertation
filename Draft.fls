@@ -435,6 +435,18 @@ INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm7.
 OUTPUT Draft.toc
 INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvb8r.tfm
@@ -465,7 +477,6 @@ INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvro8t.vf
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT D:\Program Files (x86)\New folder\tex\latex\doublestroke\udsrom.fd
 INPUT D:\Program Files (x86)\New folder\tex\latex\doublestroke\udsrom.fd
 INPUT D:\Program Files (x86)\New folder\tex\latex\doublestroke\udsrom.fd
@@ -474,20 +485,12 @@ INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom12.tf
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom8.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom8.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8t.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8t.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom10.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom8.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\public\doublestroke\dsrom8.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvro8t.vf
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvro8r.tfm
-INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
-INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8c.tfm
 INPUT D:\Program Files (x86)\New folder\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT D:\Program Files (x86)\New folder\fonts\tfm\adobe\helvetic\phvr8r.tfm

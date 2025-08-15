@@ -5,11 +5,6 @@ Acemoglu, D., Aghion, P., Bursztyn, L., and Hemous, D. (2012).
 \newblock The {Environment} and {Directed} {Technical} {Change}.
 \newblock {\em American Economic Review}, 102(1):131--166.
 
-\bibitem[Agency, 2025]{international_energy_agency_global_2025}
-Agency, I.~E. (2025).
-\newblock Global {EV} {Outlook} 2025.
-\newblock Technical report.
-
 \bibitem[Armstrong, 2006]{armstrong_competition_2006}
 Armstrong, M. (2006).
 \newblock Competition in two-sided markets.
@@ -123,6 +118,12 @@ Holland, S.~P., Mansur, E.~T., Muller, N.~Z., and Yates, A.~J. (2016).
 \newblock Are {There} {Environmental} {Benefits} from {Driving} {Electric}
   {Vehicles}? {The} {Importance} of {Local} {Factors}.
 \newblock {\em American Economic Review}, 106(12):3700--3729.
+
+\bibitem[{International Energy Agency},
+  2025]{international_energy_agency_global_2025}
+{International Energy Agency} (2025).
+\newblock Global {EV} {Outlook} 2025.
+\newblock Technical report.
 
 \bibitem[Katz and Shapiro, 1985]{katz_network_1985}
 Katz, M.~L. and Shapiro, C. (1985).
