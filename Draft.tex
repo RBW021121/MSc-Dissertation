@@ -24,7 +24,7 @@
 \author{
 Supervisor: Dr. Joao Granja \\
 \vspace{2cm}
-Student Name: Runbin Wang \\
+Author: Runbin Wang \\
 Dissertation submitted in part-fulfilment of the MSc in Economics \\
 University College London
 }
@@ -88,15 +88,17 @@ The findings confirm significant indirect network effects, with EV demand positi
 However, these effects exhibit heterogeneity across markets. Counterfactual analyses reveal that the current policy mix has driven a 4.7\% increase in EV adoption and a 3.3\% expansion in charging infrastructure. 
 Among policy instruments, uniform purchase subsidies are the most cost-effective for promoting EV adoption, outperforming non-uniform incentives such as tax exemptions and range-based subsidies. 
 While charging infrastructure subsidies are effective for network expansion, their spillover effects on EV adoption are limited. The results suggest that China's charging network may be overdeveloped relative to EV demand, reducing the marginal impact of infrastructure incentives.
-This study highlights the importance of targeted, data-driven policy design to maximize the efficiency of EV adoption incentives, particularly in markets with mature infrastructure.
+Synergies potentially exist between purchase and charging subsidies but only for high levels of government spending.
+
+
 
 \subsection*{Acknowledgements}
-I would like to express my sincere gratitude to my supervisor, Dr. Joao Granja, 
+I want to express my sincere gratitude to my supervisor, Dr. Joao Granja, 
 for his invaluable guidance, support, and encouragement throughout the course of this research.
-I would also want to thank my module instructor Dr. Liyang Sun, for her generous feedbacks that helped shape this work.
+I would also like to thank my module instructor Dr. Liyang Sun, for her generous feedbacks that helped shape this work.
 Finally, I am deeply grateful of my family's support throughout this journey.
 
-\subsection*{Word Count: 9148}
+\subsection*{Word Count: 9387}
 \newpage
 
 
@@ -154,7 +156,7 @@ Change in price structure under indirect network effects may lead to complementa
 Complementarity comes from the feedback loop between EV adoption and charging infrastructure expansion, where decreased prices, although leading to substitutions into that model from others,
 may increase total EV base, which in turn leads to expanded charging network and stronger demands for all EV models.
 
-I then conduct two sets of counterfactuals, with the first set comparing the impact of different policy instruments to EV and EVSE diffusion,
+I then conduct three sets of counterfactuals, with the first set comparing the impact of different policy instruments to EV and EVSE diffusion,
 measured from a no-incentive baseline scenario. The results show that the current combination of incentives on both sides of the market, together yields 4.7\% more EV sales and 3.3\% more charging piles.
 Each additional million CNY spent on the policy mix resulted in 8.29 more EV sales and 0.8 more charging piles.
 Comparison between demand-side instruments indicates that a uniform purchase subsidy is the most efficient overall.
@@ -163,7 +165,11 @@ However, the subsidizing EVSE exhibits limited influence on EV adoption, with on
 The second set of counterfactuals further investigates the marginal efficiency of purchase subsidies and EVSE incentives.
 The result shows limited diminishing returns and supports the use of purchase subsidies for EV diffusion,
 while suggesting the possibility of an over-developed charging infrastructure network in China that resulted in minimal feedback effects.
-The estimation results provide insights for future policy design, suggesting for targeted policy choices instead of adopting inefficient policy mix.
+Lastly, the third set of counterfactuals explores the complementarities between purchase and charging subsidies.
+A key finding is that the impact of purchase subsidies diminishes more slowly when combined with higher levels of charging subsidies,
+suggesting potential benefits from a more integrated policy approach for higher levels of government budgets.
+The estimation results provide insights for future policy design, suggesting for targeted policy choices instead of adopting inefficient policy mix,
+while retaining the potential for synergies between different types of subsidies for large scale policy initiatives.
 
 From hereafter, this paper is organized as follows: first, relevant background information on market, literature, and data are introduced in sections 3, 4, and 5 respectively;
 Section 6 and 7 then discuss the modelling details and empirical strategies for estimations. Finally, the results are presented and used for counterfactual analyses in sections 8 and 9,
@@ -732,7 +738,7 @@ F Statistic & $975,317.181^{***}$ (df = 35; 120) \\
 
 \section{Policy Counterfactuals}
 
-\hspace*{\parindent} I now run two sets of policy counterfactual analyses based on the estimation results to answer policy questions.
+\hspace*{\parindent} I now run three sets of policy counterfactual analyses based on the estimation results to answer policy questions.
 For the first set of counterfactuals, I am interested in the comparison between the efficiency of price subsidies and EVSE subsidies in promoting EV adoption.
 Due to the presence of indirect network effects, the relative efficiency of subsidies on the two sides of market is not straightforward and require empirical investigation.
 Additionally, the demand side subsidy mix contains a range of different instruments, including direct purchase subsidies, tax exemptions, and range-based subsidies.
@@ -809,6 +815,20 @@ The literature generally hypothesizes the initial development of charging networ
 Accounting for the fact that China's EV-piles ratio had dropped below two-to-one, and that the highly elastic vehicle demands, it can be reasonably speculated that the charging network in China on average has been over-developed,
 in the sense that consumers have already had access to charging infrastructures to a sufficient levels, making again the price effects from direct incentives more pronounced.
 
+Finally, I compute and compare the effectiveness metrics of increasing purchase subsidies at different levels of charging subsidies.
+Specifically, operating station subsidies are fixed at 0, 1.5 and 3 CNY per kWh, where for each scenario, the promoted EV adoption per million CNY are computed at different levels of purchase subsidies.
+Figure \ref{fig:complementarity} illustrates the presence of complementarities between purchase and charging subsidies, where diminishing return of purchase subsidies becomes less pronounced with higher levels of charging subsidies.
+In particular, given a higher level of charging subsidy inputs, impacts of purchase subsidies flatten out more slowly, 
+The crossed blue and green curves indicates that, for large government spendings, complementing purchase subsidies can even improve cost-effectiveness overall despite the previous conclusion on the inefficiency of charging subsidies.
+Although it can be difficult for such minor improvements to outweigh the evident difference in effectiveness between the two types of subsidies.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1.0\textwidth]{GraphsTables/complementarities.png}
+    \caption{\small Purchase Subsidy Impacts at Different Charging Subsidies Levels}
+    \label{fig:complementarity}
+\end{figure}
+
 
 \section{Conclusion}
 \hspace*{\parindent} Incentivizing EV diffusion is crucial for environmental policy, especially for the largest carbon emitter China.
@@ -828,10 +848,12 @@ With this framework, I am able to examine the indirect network effects and impac
 
 The results and subsequently calculated price-elasticities provide evidence for indirect network effects, 
 that the hypothesized two-sidedness of EV and charging providers indeed plays a significant role in shaping market dynamics.
-Additionally, two sets of counterfactuals demonstrates that indirect network effects do cause spillover of incentives to the other side of the market, but only to a moderate extent.
+Additionally, counterfactual results confirm that indirect network effects do cause spillover of incentives to the other side of the market, but only to a moderate extent.
 Existing policy mix in during the studied period had resulted in 4.7\% more EV sales and 3.3\% more charging piles,
 However, from isolated simulations, the efficiency measures in terms of economic impact per million CNY of government spending suggest that,
 the current policy mix may not be the most efficient due to limited influence of the indirect network effects.
+Results also indicate that there are benefits from complementarities between purchase and charging subsidies to be explored,
+but only for large levels of government budget where the less-diminishing returns starts to become significant.
 
 This study provides insights into the complex interactions between EV demand and charging infrastructure provision in China, 
 highlighting the importance of considering both sides of the market in policy design. 
@@ -845,5 +867,6 @@ which allows for a more nuanced understanding of policy impacts and better-infor
 
 \newpage
 \bibliography{Bibliography}
+
 
 \end{document}

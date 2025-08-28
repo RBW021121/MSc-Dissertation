@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  28 AUG 2025 12:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.1)  29 AUG 2025 02:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -298,13 +298,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 \tf@lot=\write5
 \openout5 = `Draft.lot'.
 
- [4]
-Overfull \hbox (5.22485pt too wide) in paragraph at lines 94--98
-\T1/phv/m/n/12 Granja, for his in-valu-able guid-ance, sup-port, and en-cour-age-ment through-
- []
-
-[5] [6] [7]
-Overfull \hbox (3.11694pt too wide) in paragraph at lines 139--148
+ [4] [5] [6] [7]
+Overfull \hbox (3.11694pt too wide) in paragraph at lines 141--150
 \T1/phv/m/n/12 model of ve-hi-cle de-mand based on ran-dom util-ity max-i-miza-tion. I adopted
  []
 
@@ -312,69 +307,75 @@ Overfull \hbox (3.11694pt too wide) in paragraph at lines 139--148
 <GraphsTables/total_shares_ev_ice_shanghai.png, id=33, 570.2103pt x 354.123pt>
 File: GraphsTables/total_shares_ev_ice_shanghai.png Graphic file (type png)
 <use GraphsTables/total_shares_ev_ice_shanghai.png>
-Package pdftex.def Info: GraphsTables/total_shares_ev_ice_shanghai.png  used on input line 191.
+Package pdftex.def Info: GraphsTables/total_shares_ev_ice_shanghai.png  used on input line 197.
 (pdftex.def)             Requested size: 266.48735pt x 165.50302pt.
- [10 <./GraphsTables/total_shares_ev_ice_shanghai.png>] [11]
+ [10] [11 <./GraphsTables/total_shares_ev_ice_shanghai.png>]
 <GraphsTables/total_ev_charging_trend.png, id=42, 570.2103pt x 354.123pt>
 File: GraphsTables/total_ev_charging_trend.png Graphic file (type png)
 <use GraphsTables/total_ev_charging_trend.png>
-Package pdftex.def Info: GraphsTables/total_ev_charging_trend.png  used on input line 240.
+Package pdftex.def Info: GraphsTables/total_ev_charging_trend.png  used on input line 246.
 (pdftex.def)             Requested size: 266.48735pt x 165.50302pt.
  [12 <./GraphsTables/total_ev_charging_trend.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 256--273
+Underfull \hbox (badness 10000) in paragraph at lines 262--279
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 274--287
+Underfull \hbox (badness 10000) in paragraph at lines 280--293
 
  []
 
 [14] [15] [16] [17]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 369.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 375.
  (D:\Program Files (x86)\New folder\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 378.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 384.
  [18]
-Overfull \hbox (10.1551pt too wide) detected at line 383
+Overfull \hbox (10.1551pt too wide) detected at line 389
 []\OML/cmm/m/it/12 u[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^L[]EV[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^L[] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 ^^L[]\OT1/cmr/m/n/12 ([](\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^B \OML/cmm/m/it/12 EV[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 p[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 x[]^^L[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^X[] \OT1/cmr/m/n/12 + []
  []
 
-[19] [20]
-Overfull \hbox (45.997pt too wide) detected at line 463
+[19] [20] [21]
+Overfull \hbox (45.997pt too wide) detected at line 469
 [][][]
  []
 
-[21] [22] [23]
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 538.
+[22] [23] [24]
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 544.
  (D:\Program Files (x86)\New folder\tex/latex/doublestroke\udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-) [24] [25]
+) [25]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 608.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 614.
  [26] [27]
-Overfull \hbox (30.12439pt too wide) in paragraph at lines 626--639
+Overfull \hbox (30.12439pt too wide) in paragraph at lines 632--645
  [][] 
  []
 
 
-Overfull \hbox (30.12439pt too wide) in paragraph at lines 645--658
+Overfull \hbox (30.12439pt too wide) in paragraph at lines 651--664
  [][] 
  []
 
 [28] [29] [30] [31]
-Overfull \hbox (4.16153pt too wide) in paragraph at lines 784--788
+Overfull \hbox (4.16153pt too wide) in paragraph at lines 790--794
 \T1/phv/m/n/12 pears the least ef-fi-cient over-all. Springel (2021) showed the non-neutrality
  []
 
 <GraphsTables/policy_counterfactuals_comparison.png, id=121, 1075.1367pt x 424.9476pt>
 File: GraphsTables/policy_counterfactuals_comparison.png Graphic file (type png)
 <use GraphsTables/policy_counterfactuals_comparison.png>
-Package pdftex.def Info: GraphsTables/policy_counterfactuals_comparison.png  used on input line 791.
+Package pdftex.def Info: GraphsTables/policy_counterfactuals_comparison.png  used on input line 797.
 (pdftex.def)             Requested size: 380.69788pt x 150.47163pt.
-[32] [33 <./GraphsTables/policy_counterfactuals_comparison.png>] [34] [35] (Draft.bbl
+[32] [33 <./GraphsTables/policy_counterfactuals_comparison.png>]
+<GraphsTables/complementarities.png, id=129, 857.1222pt x 498.663pt>
+File: GraphsTables/complementarities.png Graphic file (type png)
+<use GraphsTables/complementarities.png>
+Package pdftex.def Info: GraphsTables/complementarities.png  used on input line 827.
+(pdftex.def)             Requested size: 380.69788pt x 221.48964pt.
+ [34 <./GraphsTables/complementarities.png>] [35] [36] (Draft.bbl
 Underfull \hbox (badness 2556) in paragraph at lines 52--58
 []\T1/phv/m/n/12 Conlon, C. and Gort-maker, J. (2020).  Best prac-tices for dif-
  []
@@ -389,7 +390,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--58
 \T1/phv/m/sl/12 RAND Jour-nal of Eco-nomics\T1/phv/m/n/12 , 51(4):1108--1161.  _eprint:
  []
 
-[36] [37]
+[37] [38]
 Underfull \hbox (badness 8151) in paragraph at lines 161--167
 []\T1/phv/m/n/12 Nevo, A. (2000).  A Prac-ti-tioner's Guide to Es-ti-ma-tion of
  []
@@ -409,19 +410,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--167
 \T1/phv/m/n/12 _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1430-
  []
 
-[38]) [39] (Draft.aux) ) 
+[39]) [40] (Draft.aux) ) 
 Here is how much of TeX's memory you used:
- 4483 strings out of 476331
- 68086 string characters out of 5792888
- 1864660 words of memory out of 5000000
- 24834 multiletter control sequences out of 15000+600000
+ 4491 strings out of 476331
+ 68363 string characters out of 5792888
+ 1865660 words of memory out of 5000000
+ 24841 multiletter control sequences out of 15000+600000
  563305 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,15n,62p,597b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,15n,62p,565b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/doublestroke/dsrom12.pfb><D:/Program Files (x86)/New folder/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/Program Files (x86)/New folder/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files (x86)/New folder/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Program Files (x86)/New folder/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Draft.pdf (39 pages, 639480 bytes).
+Output written on Draft.pdf (40 pages, 684998 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
+ 222 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

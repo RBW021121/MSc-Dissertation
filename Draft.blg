@@ -5,33 +5,32 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: Bibliography.bib
-Warning--empty institution in international_energy_agency_global_2025
 You've used 37 entries,
             1935 wiz_defined-function locations,
-            691 strings with 10653 characters,
-and the built_in function-call counts, 14516 in all, are:
-= -- 1465
+            692 strings with 10680 characters,
+and the built_in function-call counts, 14515 in all, are:
+= -- 1466
 > -- 520
 < -- 29
 + -- 173
 - -- 167
-* -- 1255
-:= -- 2528
+* -- 1253
+:= -- 2529
 add.period$ -- 124
 call.type$ -- 37
 change.case$ -- 268
 chr.to.int$ -- 37
-cite$ -- 38
+cite$ -- 37
 duplicate$ -- 531
 empty$ -- 1039
 format.name$ -- 230
-if$ -- 2817
+if$ -- 2818
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 36
 newline$ -- 199
 num.names$ -- 113
-pop$ -- 181
+pop$ -- 180
 preamble$ -- 1
 purify$ -- 267
 quote$ -- 0
@@ -43,8 +42,7 @@ text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 222
-warning$ -- 1
+warning$ -- 0
 while$ -- 129
 width$ -- 0
-write$ -- 501
-(There was 1 warning)
+write$ -- 502
