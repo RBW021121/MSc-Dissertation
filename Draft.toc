@@ -1,18 +1,17 @@
-\contentsline {section}{\numberline {1}Abstract}{1}{}%
-\contentsline {section}{\numberline {2}Introduction}{3}{}%
-\contentsline {section}{\numberline {3}Industrial Background and Policy}{6}{}%
-\contentsline {subsection}{\numberline {3.1}EV market}{6}{}%
-\contentsline {subsection}{\numberline {3.2}EVSE market}{8}{}%
-\contentsline {section}{\numberline {4}Literature Review}{10}{}%
-\contentsline {section}{\numberline {5}Data}{13}{}%
-\contentsline {section}{\numberline {6}Modelling}{16}{}%
-\contentsline {subsection}{\numberline {6.1}Demand: Vehicle Choice}{16}{}%
-\contentsline {subsection}{\numberline {6.2}Supply: Station Entry}{19}{}%
-\contentsline {section}{\numberline {7}Empirical Strategy}{21}{}%
-\contentsline {subsection}{\numberline {7.1}Identification: Demand}{21}{}%
-\contentsline {subsection}{\numberline {7.2}Identification: Supply}{22}{}%
-\contentsline {section}{\numberline {8}Results}{23}{}%
-\contentsline {subsection}{\numberline {8.1}Demand}{23}{}%
-\contentsline {subsection}{\numberline {8.2}Supply}{27}{}%
-\contentsline {section}{\numberline {9}Policy Counterfactuals}{28}{}%
-\contentsline {section}{\numberline {10}Conclusion}{31}{}%
+\contentsline {section}{\numberline {1}Introduction}{6}{}%
+\contentsline {section}{\numberline {2}Industrial Background and Policy}{9}{}%
+\contentsline {subsection}{\numberline {2.1}EV market}{9}{}%
+\contentsline {subsection}{\numberline {2.2}EVSE market}{11}{}%
+\contentsline {section}{\numberline {3}Literature Review}{13}{}%
+\contentsline {section}{\numberline {4}Data}{16}{}%
+\contentsline {section}{\numberline {5}Modelling}{19}{}%
+\contentsline {subsection}{\numberline {5.1}Demand: Vehicle Choice}{19}{}%
+\contentsline {subsection}{\numberline {5.2}Supply: Station Entry}{22}{}%
+\contentsline {section}{\numberline {6}Empirical Strategy}{24}{}%
+\contentsline {subsection}{\numberline {6.1}Identification: Demand}{24}{}%
+\contentsline {subsection}{\numberline {6.2}Identification: Supply}{25}{}%
+\contentsline {section}{\numberline {7}Results}{26}{}%
+\contentsline {subsection}{\numberline {7.1}Demand}{26}{}%
+\contentsline {subsection}{\numberline {7.2}Supply}{30}{}%
+\contentsline {section}{\numberline {8}Policy Counterfactuals}{31}{}%
+\contentsline {section}{\numberline {9}Conclusion}{34}{}%

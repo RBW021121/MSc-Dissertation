@@ -7,45 +7,97 @@
 \usepackage{booktabs}
 \usepackage{dsfont}
 \usepackage{setspace}
-
+\usepackage{amssymb}
 \usepackage[T1]{fontenc}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage[authoryear,round]{natbib}
 \bibliographystyle{apalike}
+\usepackage{titlesec}
+\titleformat{\subsection}{\itshape\normalfont\large}{\thesubsection}{1em}{}
 
 \setlength{\parindent}{1em}
 \setlength{\parskip}{0pt}
 
 
 \title{EV Adoption and Policy Incentives Under Indirect Network Effects in China}
-\author{Runbin Wang \\ University College London - MSc Economics\\ }
+\author{
+Supervisor: Dr. Joao Granja \\
+\vspace{2cm}
+Student Name: Runbin Wang \\
+Dissertation submitted in part-fulfilment of the MSc in Economics \\
+University College London
+}
 \date{\today}
 
 \begin{document}
 \onehalfspacing
 \maketitle
 
-
-\section{Abstract}
-This study structurally models a two-sided market formed by EVs and charging providers,
-using province-level annual vehicle sales data in China from 2019 to 2023. 
-EV demands under indirect network effects are examined for evaluation of policy impacts on EV adoptions.
-Part of calculated price elasticities exhibits increased complementarity across models, confirming the presence of significant indirect network effects, 
-while this result exhibits some heterogeneities that are context-dependent across markets.
-Counterfactual results suggest that the implemented policy mix incentivized 4.7\% increase in EV adoption and 3.3\% increase in charging piles deployment,
-and comparative analysis of different subsidies indicates that a uniform purchase subsidy is the most efficient overall.
-Targeted policies on purchase price of EVs exhibit the most significant impact when considering only EV adoption.
-In particular, uniform purchase subsidy is more cost-effective than non-uniform subsidies such as tax exemptions and range-based incentives,
-while externalities from feedback effects are present but not to the same extent as direct effects.
-
-
-
+% --- Declaration Page ---
 \newpage
+\section*{Declaration}
+I, Runbin Wang, hereby declare that the work presented in this dissertation is my own original work. Where information has been derived from other sources, 
+I confirm that this has been clearly and fully identified and acknowledged.  No part of this dissertation contains material previously submitted to the examiners of this or any other university, 
+or any material previously submitted for any other assessment.\\
 
+Name: Runbin Wang \\
+
+Date: \today
+
+\subsection*{Classification}
+$\checkmark$	an empirical/econometric study\\
+$\Box$	the examination of a theoretical problem\\
+$\Box$	a critical analysis of a policy issue\\
+$\Box$	an analytical survey of empirical and/or theoretical literature
+$\square$	an analytical survey of empirical and/or theoretical literature
+
+\subsection*{Dissertation Library}
+
+I give permission for a pdf electronic copy of this dissertation to be made available to future students by way of the Dissertation Library, 
+should the Department of Economics choose to use it in this way. \vspace{0.2cm} \\
+
+$\checkmark$ Yes
+$\Box$ No
+
+
+
+
+% --- Table of Contents ---
+\newpage
 \tableofcontents
 
-\newpage  
+
+% --- List of Figures and Tables ---
+\newpage
+
+
+\section*{List of Figures and Tables}
+\listoffigures
+\listoftables
+
+
+% --- Abstract ---
+\newpage
+
+
+\section*{Abstract}
+This study develops a structural model of the two-sided market formed by electric vehicles (EVs) and charging infrastructure in China, using province-level annual vehicle sales data from 2019 to 2023. 
+I quantify indirect network effects and evaluate the impact of policy incentives on EV adoption and charging infrastructure deployment. 
+The findings confirm significant indirect network effects, with EV demand positively influenced by charging infrastructure availability and vice versa. 
+However, these effects exhibit heterogeneity across markets. Counterfactual analyses reveal that the current policy mix has driven a 4.7\% increase in EV adoption and a 3.3\% expansion in charging infrastructure. 
+Among policy instruments, uniform purchase subsidies are the most cost-effective for promoting EV adoption, outperforming non-uniform incentives such as tax exemptions and range-based subsidies. 
+While charging infrastructure subsidies are effective for network expansion, their spillover effects on EV adoption are limited. The results suggest that China's charging network may be overdeveloped relative to EV demand, reducing the marginal impact of infrastructure incentives.
+This study highlights the importance of targeted, data-driven policy design to maximize the efficiency of EV adoption incentives, particularly in markets with mature infrastructure.
+
+\subsection*{Acknowledgements}
+I would like to express my sincere gratitude to my supervisor, Dr. Joao Granja, 
+for his invaluable guidance, support, and encouragement throughout the course of this research.
+I would also want to thank my module instructor Dr. Liyang Sun, for her generous feedbacks that helped shape this work.
+Finally, I am deeply grateful of my family's support throughout this journey.
+
+\subsection*{Word Count: 9148}
+\newpage
 
 
 \section{Introduction}
@@ -658,7 +710,7 @@ still provides room for policy counterfactuals. These results are shown in Table
 \label{tab:supply-estimates}
 \begin{tabular}{@{}lc@{}}
 \toprule
-\multicolumn{2}{c}{{Dependent variable: $\log(\text{charging stations stock})$}} \\
+\multicolumn{2}{c}{{Dependent variable: $\log(\text{charging piles stock})$}} \\
 \midrule
 Fixed Subsidy & $-0.00005$ \\
 & $(0.00038)$ \\
